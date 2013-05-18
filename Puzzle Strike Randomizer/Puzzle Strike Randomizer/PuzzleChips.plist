@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>defaultHead</key>
+	<dict>
+		<key>shadowsPuzzleChips</key>
+		<array>
+			<dict>
+				<key>chipID</key>
+				<integer>23</integer>
+				<key>FAQ</key>
+				<string>Resolve each of the two “plays” of an X-Copy one at a time. If a play would end your action phase (such as Master Puzzler from the base set), it really does end it and you can’t continue.
+It can’t copy itself but can copy another copy of itself. When you X-Copy (#1) another X-Copy (#2), you must target two separate hand chips for the two resolutions of the second X-Copy. For example, if your hand is X-Copy, X-Copy, Crash Gem, 1-gem, 1-gem, you cannot crash 4 gems. But if it&apos;s X-Copy, X-Copy, Crash Gem, Crash Gem, 1-gem, then you can crash 4 gems.
+If you X-Copy an Ongoing chip, such as Secret Move from the base set, you get the non-ongoing effect twice (the +arrow), but don&apos;t get anything after &quot;Ongoing&quot; twice. You can’t X-Copy the Crash Gem in your gem pile from the base set’s Iron Defense chip (it’s not in your hand.) The copied chip is really “played” twice, even if it’s a self-trashing chip like Button Mashing or Option Select . If you would play a once-per-turn chip twice in a turn, the second time doesn’t do anything. When you X-Copy an attack, the victims can blue-shield react to each instance of the attack. When you X-Copy a chip that gives you a choice, such as Color Panic or Now or Later , you can make different choices for each play.</string>
+				<key>chipName</key>
+				<string>X-Copy</string>
+				<key>chipAssetName</key>
+				<string>PS_X-Copy.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>24</integer>
+				<key>FAQ</key>
+				<string>You can ante one 4-gem, get the +chip, then decide if you want to keep going. Hopefully you can win the game with this by using the +arrows to crash somehow. Remember that when you crash those 4-gems, no one can counter-crash, and they can’t even react with any purple shields.</string>
+				<key>chipName</key>
+				<string>The Hammer</string>
+				<key>chipAssetName</key>
+				<string>PS_The_Hammer.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>25</integer>
+				<key>FAQ</key>
+				<string>If there aren’t any character chips in your discard pile, you can choose to skip the first sentence of the chip. If there is a character chip in your discard pile, you can’t choose to put no character chip in your hand (either choose that one or get a different one from your bag if you prefer). The last sentence lets you play any character chip in your hand, whether it’s the one you just searched or not.</string>
+				<key>chipName</key>
+				<string>Signature Move</string>
+				<key>chipAssetName</key>
+				<string>PS_Signature_Move.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>26</integer>
+				<key>FAQ</key>
+				<string>Putting the 1-gem from your gem pile into your bag can keep your gem pile low if you’re in danger of losing. It’s optional to do this part and even if you don’t, you still get the +black arrow and +piggy-bank.</string>
+				<key>chipName</key>
+				<string>Safe Keeping</string>
+				<key>chipAssetName</key>
+				<string>PS_Safe_Keeping.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>27</integer>
+				<key>FAQ</key>
+				<string>The ante comes from the bank. You get to draw two chips too!</string>
+				<key>chipName</key>
+				<string>Risk to Riskonade</string>
+				<key>chipAssetName</key>
+				<string>PS_Risk_to_Riskonade.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>28</integer>
+				<key>FAQ</key>
+				<string>The ante comes from the bank.</string>
+				<key>chipName</key>
+				<string>Repeated Jabs</string>
+				<key>chipAssetName</key>
+				<string>PS_Repeated_Jabs.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>29</integer>
+				<key>FAQ</key>
+				<string>This is a simple one.</string>
+				<key>chipName</key>
+				<string>Punch Punch Kick</string>
+				<key>chipAssetName</key>
+				<string>PS_Punch_Punch_Kick.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>30</integer>
+				<key>FAQ</key>
+				<string>The ante comes from the bank.</string>
+				<key>chipName</key>
+				<string>Pick Your Poison</string>
+				<key>chipAssetName</key>
+				<string>PS_Pick_Your_Poison.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>31</integer>
+				<key>FAQ</key>
+				<string>Resolve each of the two “plays” of an X-Copy one at a time. If a play would end your action phase (such as Master Puzzler from the base set), it really does end it and you can’t continue.
+It can’t copy itself but can copy another copy of itself. When you X-Copy (#1) another X-Copy (#2), you must target two separate hand chips for the two resolutions of the second X-Copy. For example, if your hand is X-Copy, X-Copy, Crash Gem, 1-gem, 1-gem, you cannot crash 4 gems. But if it&apos;s X-Copy, X-Copy, Crash Gem, Crash Gem, 1-gem, then you can crash 4 gems.
+If you X-Copy an Ongoing chip, such as Secret Move from the base set, you get the non-ongoing effect twice (the +arrow), but don&apos;t get anything after &quot;Ongoing&quot; twice. You can’t X-Copy the Crash Gem in your gem pile from the base set’s Iron Defense chip (it’s not in your hand.) The copied chip is really “played” twice, even if it’s a self-trashing chip like Button Mashing or Option Select . If you would play a once-per-turn chip twice in a turn, the second time doesn’t do anything. When you X-Copy an attack, the victims can blue-shield react to each instance of the attack. When you X-Copy a chip that gives you a choice, such as Color Panic or Now or Later , you can make different choices for each play.</string>
+				<key>chipName</key>
+				<string>Ouch!</string>
+				<key>chipAssetName</key>
+				<string>PS_Ouch!.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>32</integer>
+				<key>FAQ</key>
+				<string>This chip has a gray banner until the moment it’s actually played, at which point it copies the banner and everything else about the chip it targets. So you can’t use a +brown arrow to play this, even if you want to copy a brown-banner chip with it. You can use a +black arrow to play it though. You can’t Option Select an empty bank stack.
+This chip CAN copy the reaction shields on other chips, so it can be played as any reaction chip in the bank (of cost 5 or less).
+If you copy a Combine , then other chips that check if you played a Combine really will trigger. Option Selecting a chip with “ongoing” is probably not useful, but you do get whatever benefit it would immediately grant when play. For example, Option Selecting Secret Move from the base set would give you +arrow and +piggy-bank (that turn only). Option Selecting Hundred-Fist Frenzy does nothing useful though. Option Selecting a red fist would let you trigger a Hundred-Fist Frenzy you had in play, by the way. Option Select is trashed on use no matter what any other chip says. So Repeated Jabs doesn’t really put it on top of your bag if you Option Select it.</string>
+				<key>chipName</key>
+				<string>Option Select</string>
+				<key>chipAssetName</key>
+				<string>PS_Option_Select.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>33</integer>
+				<key>FAQ</key>
+				<string>You don’t have to pay -$1 to combine the gems.</string>
+				<key>chipName</key>
+				<string>One True Style</string>
+				<key>chipAssetName</key>
+				<string>PS_One_True_Style.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>34</integer>
+				<key>FAQ</key>
+				<string>The second option means that you look at the set of all chips in your hand and discard pile, then trash a gem, wound, or both from that set. You can’t, for example, trash a wound from your hand and a wound from your discard pile.</string>
+				<key>chipName</key>
+				<string>Now or Later</string>
+				<key>chipAssetName</key>
+				<string>PS_Now_or_Later.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>35</integer>
+				<key>FAQ</key>
+				<string>When you use this on your turn, you’ll be able to use the new gem for money on that same turn. To play it as a reaction, you must be affected by an opponent’s red fist attack.</string>
+				<key>chipName</key>
+				<string>Money for Nothing</string>
+				<key>chipAssetName</key>
+				<string>PS_Money_for_Nothing.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>36</integer>
+				<key>FAQ</key>
+				<string>Gaining a wound means putting a wound chip from the bank into your discard pile.</string>
+				<key>chipName</key>
+				<string>Just a Scratch</string>
+				<key>chipAssetName</key>
+				<string>PS_Just_a_Scratch.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>37</integer>
+				<key>FAQ</key>
+				<string>For the main action, you draw and reveal two chips. If one or both are gems, you have to discard those without any benefit. For non-gems drawn this way, you must play them and playing them doesn’t cost an action. You can choose the order in which you play both chips (Note: this supersedes the printed rulebook). If you would play a once-per-turn chip (of the same name) a second time, it has no effect. If a chip says to end your action phase, you don’t get to keep going and play the other chip. Note that when you play Improvisation as a reaction on another player’s turn though, ending your action phase doesn’t actually do anything (it wasn’t your action phase anyway!) so you can keep going in that case.
+When you play the reaction and it’s not your turn, any +gem power (money), +arrows, or +pigs you get don’t do anything.</string>
+				<key>chipName</key>
+				<string>Improvisation</string>
+				<key>chipAssetName</key>
+				<string>PS_Improvisation.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>38</integer>
+				<key>FAQ</key>
+				<string>Hundred-Fist-Frenzy activates and crashes after your red fist attack happens. Even if your red fist didn’t end up affecting other players, HFF still activates. When you crash using this chip, you don’t get any +gem power (money) for it. If you have multiple copies of this chip in play, they all trigger whenever you play a red fist. If any opponent ends his action phase without doing anything, you discard all the copies of this chip you have in play. If there is a timing overlap with a blue saying it also happens “after you are fist attacked” then the blue happens after Hundred-Fist Frenzy.</string>
+				<key>chipName</key>
+				<string>Hundred-Fist Frenzy</string>
+				<key>chipAssetName</key>
+				<string>PS_Hundred-Fist_Frenzy.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>39</integer>
+				<key>FAQ</key>
+				<string>You can play this as a reaction if a red fist would affect you. Note that the trashed 1-gems go back to the bank. The ante comes from the bank.</string>
+				<key>chipName</key>
+				<string>Ebb or Flow</string>
+				<key>chipAssetName</key>
+				<string>PS_Ebb_or_Flow.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>40</integer>
+				<key>FAQ</key>
+				<string>It can’t remove itself or character chips. The trashed chips go back to the bank.</string>
+				<key>chipName</key>
+				<string>Degenerate Trasher</string>
+				<key>chipAssetName</key>
+				<string>PS_Degenerate_Trasher.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>41</integer>
+				<key>FAQ</key>
+				<string>A multicolor banner that contains the named color counts. If more than one opponent fails the test, you still only get a total of one +arrow.</string>
+				<key>chipName</key>
+				<string>Color Panic</string>
+				<key>chipAssetName</key>
+				<string>PS_Color_Panic.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>42</integer>
+				<key>FAQ</key>
+				<string>It can’t trash itself or a character chip. The chip you gain can’t cost less than the trashed chip.</string>
+				<key>chipName</key>
+				<string>Chips for Free</string>
+				<key>chipAssetName</key>
+				<string>PS_Chips_for_Free.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>43</integer>
+				<key>FAQ</key>
+				<string>Enjoy!</string>
+				<key>chipName</key>
+				<string>Button Mashing</string>
+				<key>chipAssetName</key>
+				<string>PS_Button_Mashing.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>44</integer>
+				<key>FAQ</key>
+				<string>If a chip has a multicolor banner that contains blue, it’s ok to search for it. The blue arrows mean you can play the blues you searched for right away.</string>
+				<key>chipName</key>
+				<string>Blues are Good</string>
+				<key>chipAssetName</key>
+				<string>PS_Blues_are_Good.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>45</integer>
+				<key>FAQ</key>
+				<string>You add up the numbers on the gems in your gem pile to see if it’s 4 or fewer (don’t just count how many gems you have). The once-per-turn means you can’t even play separate copies of this chip during the same turn.</string>
+				<key>chipName</key>
+				<string>Bang then Fizzle</string>
+				<key>chipAssetName</key>
+				<string>PS_Bang_then_Fizzle.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>46</integer>
+				<key>FAQ</key>
+				<string>This is an easy one.</string>
+				<key>chipName</key>
+				<string>Axe Kick</string>
+				<key>chipAssetName</key>
+				<string>PS_Axe_Kick.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>47</integer>
+				<key>FAQ</key>
+				<string>If a player discards a Purple Orb chip instead of two chips, that chip must literally have a purple orb printed in the banner. Players can choose to “discard two chips” even if they have just 1 or 0 chips in hand.</string>
+				<key>chipName</key>
+				<string>Chip Damage</string>
+				<key>chipAssetName</key>
+				<string>PS_Combo_Practice.png</string>
+			</dict>
+		</array>
+		<key>puzzleChips</key>
+		<array>
+			<dict>
+				<key>chipID</key>
+				<integer>1</integer>
+				<key>FAQ</key>
+				<string>The bank contains Puzzle chips, Gem chips, Purple chips, and Wounds. Remember that “gain” means to put the chips in the discard pile. You can’t gain Master Puzzler with this.</string>
+				<key>chipName</key>
+				<string>Combos Are Hard</string>
+				<key>chipAssetName</key>
+				<string>PS_Combos_Are_Hard.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>2</integer>
+				<key>FAQ</key>
+				<string>So yeah... you draw three chips.</string>
+				<key>chipName</key>
+				<string>Draw Three</string>
+				<key>chipAssetName</key>
+				<string>PS_Draw_Three.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>3</integer>
+				<key>FAQ</key>
+				<string>The trashed gem chip goes back to the bank. You can use either the red arrow OR the blue arrow to play Really Annoying .</string>
+				<key>chipName</key>
+				<string>Gem Essence</string>
+				<key>chipAssetName</key>
+				<string>PS_Gem_Essence.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>4</integer>
+				<key>FAQ</key>
+				<string>This only works when gems are “sent” to you. Crashing or counter-crashing gems in a gem pile “sends” gems but other operations like Sneak Attack do not.
+You can’t counter crash AND play this chip as a reaction to the same “send” because you can only play one reaction per event.</string>
+				<key>chipName</key>
+				<string>Gems to Gemonade</string>
+				<key>chipAssetName</key>
+				<string>PS_Gems_to_Gemonade.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>5</integer>
+				<key>FAQ</key>
+				<string>You can trap any kind of stack in the bank: a puzzle, gem, purple, or wound stack. For the trap token, use a spare coin or any other object you have laying around.</string>
+				<key>chipName</key>
+				<string>It&apos;s a Trap</string>
+				<key>chipAssetName</key>
+				<string>PS_It&apos;s_a_Trap.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>6</integer>
+				<key>FAQ</key>
+				<string>You pretty much just read the chip.</string>
+				<key>chipName</key>
+				<string>It&apos;s Combo Time</string>
+				<key>chipAssetName</key>
+				<string>PS_It&apos;s_Combo_Time.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>7</integer>
+				<key>FAQ</key>
+				<string>You can use the Crash Gem on your own turns or use it to counter-crash when an opponent sends gems to you. After you use the Crash Gem, it goes to your discard pile as usual. It costs an action to use the Crash Gem. You can use the Crash Gem the same turn you get it if you have the arrows for it.</string>
+				<key>chipName</key>
+				<string>Iron Defense</string>
+				<key>chipAssetName</key>
+				<string>PS_Iron_Defense.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>8</integer>
+				<key>FAQ</key>
+				<string>The restriction about playing purple shields ends at the end of the turn you play Knockdown. If the chosen opponent has some way of playing a purple shield chip NOT as a reaction, they can still do that.</string>
+				<key>chipName</key>
+				<string>Knockdown</string>
+				<key>chipAssetName</key>
+				<string>PS_Knockdown.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>9</integer>
+				<key>FAQ</key>
+				<string>You get one of each.</string>
+				<key>chipName</key>
+				<string>One of Each</string>
+				<key>chipAssetName</key>
+				<string>PS_One_of_Each.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>10</integer>
+				<key>FAQ</key>
+				<string>Check above to see what the symbols do.</string>
+				<key>chipName</key>
+				<string>One-Two Punch</string>
+				<key>chipAssetName</key>
+				<string>PS_One-Two_Punch.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>11</integer>
+				<key>FAQ</key>
+				<string>Wow, three arrows!</string>
+				<key>chipName</key>
+				<string>Recklessness</string>
+				<key>chipAssetName</key>
+				<string>PS_Recklessness.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>12</integer>
+				<key>FAQ</key>
+				<string>This chip is both red and blue, so if you have either a red or blue arrow from another chip, you can play the main action of this chip. When played as a reaction, it counts as a blue shield and a red fist, so other players can react to the reaction with Really Annoying or Self-Improvement , for example.</string>
+				<key>chipName</key>
+				<string>Really Annoying</string>
+				<key>chipAssetName</key>
+				<string>PS_Really_Annoying.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>13</integer>
+				<key>FAQ</key>
+				<string>If you put a 4-gem from your hand to your gem pile, you don’t get to gain a gem from the bank. There’s no such thing as a 5-gem.</string>
+				<key>chipName</key>
+				<string>Risky Move</string>
+				<key>chipAssetName</key>
+				<string>PS_Risky_Move.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>14</integer>
+				<key>FAQ</key>
+				<string>Simple and good.</string>
+				<key>chipName</key>
+				<string>Roundhouse</string>
+				<key>chipAssetName</key>
+				<string>PS_Roundhouse.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>15</integer>
+				<key>FAQ</key>
+				<string>Treat the on-sale chips in the bank as if their costs really are lower. For example, Training Day looks at the discounted cost, not the cost printed on the chip.</string>
+				<key>chipName</key>
+				<string>Sale Prices</string>
+				<key>chipAssetName</key>
+				<string>PS_Sale_Prices.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>16</integer>
+				<key>FAQ</key>
+				<string>You get the +piggy-bank even on the turn you play this chip. You only discard this from the table if you buy a Combine , Crash Gem or Double Crash Gem chip.</string>
+				<key>chipName</key>
+				<string>Secret Move</string>
+				<key>chipAssetName</key>
+				<string>PS_Secret_Move.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>17</integer>
+				<key>FAQ</key>
+				<string>It can’t trash itself. You can only play one reaction to any given event. The reaction is unusual in that its effect happens after the attack finishes resolving.</string>
+				<key>chipName</key>
+				<string>Self Improvement</string>
+				<key>chipAssetName</key>
+				<string>PS_Self-Improvement.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>18</integer>
+				<key>FAQ</key>
+				<string>The ante comes from the bank. In a 2v2 game, the other team only has to ante one time.</string>
+				<key>chipName</key>
+				<string>Sneak Attack</string>
+				<key>chipAssetName</key>
+				<string>PS_Sneak_Attack.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>19</integer>
+				<key>FAQ</key>
+				<string>The opponent discards only the chips that actually have purple spheres printed in their banners. You must steal a purple orb chip if possible. If there aren’t any chips to steal, you don’t trash this chip, but you must trash it if you do steal a chip.</string>
+				<key>chipName</key>
+				<string>Stolen Purples</string>
+				<key>chipAssetName</key>
+				<string>PS_Stolen_Purples.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>20</integer>
+				<key>FAQ</key>
+				<string>For the main action, if you buy several chips in a turn, it’s up to you how many of them to put on top of your bag. For the reaction, you must trash Thinking Ahead.</string>
+				<key>chipName</key>
+				<string>Thinking Ahead</string>
+				<key>chipAssetName</key>
+				<string>PS_Thinking_Ahead.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>21</integer>
+				<key>FAQ</key>
+				<string>It can’t trash itself or a character chip. The chip you gain can’t cost less than the trashed chip.</string>
+				<key>chipName</key>
+				<string>Training Day</string>
+				<key>chipAssetName</key>
+				<string>PS_Training_Day.png</string>
+			</dict>
+			<dict>
+				<key>chipID</key>
+				<integer>22</integer>
+				<key>FAQ</key>
+				<string>You cannot play or gain Gem chips with this. You cannot play chips from your hand in the middle of resolving Master Puzzler. Remember to put the chips you “gain” with Master Puzzler into your discard pile. You don’t gain a chip if it trashes as part of its effect, such as It&apos;s a Trap . If the bank is out of a certain chip, you can’t use Master Puzzler to play that chip.</string>
+				<key>chipName</key>
+				<string>Master Puzzler</string>
+				<key>chipAssetName</key>
+				<string>PS_Master_Puzzler.png</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

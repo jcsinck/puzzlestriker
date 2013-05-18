@@ -1,0 +1,1330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E3D5D1F1703E95600952A63 /* psr144.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D5D1B1703E95600952A63 /* psr144.png */; };
+		8E3D5D201703E95600952A63 /* psr114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D5D1C1703E95600952A63 /* psr114.png */; };
+		8E3D5D211703E95600952A63 /* psr57.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D5D1D1703E95600952A63 /* psr57.png */; };
+		8E3D5D221703E95600952A63 /* psr72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D5D1E1703E95600952A63 /* psr72.png */; };
+		8E3D5D241703EB2800952A63 /* psricon500x500.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D5D231703EB2800952A63 /* psricon500x500.png */; };
+		8E3D5DD71713CE7100952A63 /* psr_dice.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D5DD61713CE7100952A63 /* psr_dice.png */; };
+		8E3D5DDA1713D1B200952A63 /* 198-card-spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D5DD91713D1B200952A63 /* 198-card-spades.png */; };
+		8E3D5DDC1713D27700952A63 /* 157-wrench.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D5DDB1713D27700952A63 /* 157-wrench.png */; };
+		8E3D5DDE1713D3AA00952A63 /* 123-id-card.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D5DDD1713D3AA00952A63 /* 123-id-card.png */; };
+		8E3D5DE01713D45400952A63 /* 96-book.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D5DDF1713D45400952A63 /* 96-book.png */; };
+		8E514267166085CE00A0D76D /* ConfigureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E514265166085CE00A0D76D /* ConfigureViewController.m */; };
+		8E514268166085CE00A0D76D /* ConfigureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E514266166085CE00A0D76D /* ConfigureViewController.xib */; };
+		8E688BF716AE254F00BB41CB /* AboutScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E688BF516AE254F00BB41CB /* AboutScreenViewController.m */; };
+		8E688BF816AE254F00BB41CB /* AboutScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E688BF616AE254F00BB41CB /* AboutScreenViewController.xib */; };
+		8EA3615316A3BF7100B38058 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EA3614F16A3BF7100B38058 /* Icon.png */; };
+		8EA3615416A3BF7100B38058 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EA3615016A3BF7100B38058 /* Icon-72@2x.png */; };
+		8EA3615516A3BF7100B38058 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EA3615116A3BF7100B38058 /* Icon@2x.png */; };
+		8EA3615616A3BF7100B38058 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EA3615216A3BF7100B38058 /* Icon-72.png */; };
+		8EA9F973164B798B00092C42 /* RandomizerSettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA9F972164B798B00092C42 /* RandomizerSettingsManager.m */; };
+		8EDA0F941647543300DFA321 /* ConfigureRandomizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA0F921647543300DFA321 /* ConfigureRandomizerViewController.m */; };
+		8EDA0F951647543300DFA321 /* ConfigureRandomizerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EDA0F931647543300DFA321 /* ConfigureRandomizerViewController.xib */; };
+		8EDA0F9A1648E3B700DFA321 /* ConfigureTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA0F981648E3B600DFA321 /* ConfigureTableViewCell.m */; };
+		8EDA0F9B1648E3B700DFA321 /* ConfigureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EDA0F991648E3B600DFA321 /* ConfigureTableViewCell.xib */; };
+		8EEF251B165FED390096F642 /* ConfigureCharacterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF2519165FED390096F642 /* ConfigureCharacterTableViewCell.m */; };
+		8EEF251C165FED390096F642 /* ConfigureCharacterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EEF251A165FED390096F642 /* ConfigureCharacterTableViewCell.xib */; };
+		AE29C0231636374D0032B203 /* EncyclopediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE29C0211636374D0032B203 /* EncyclopediaViewController.m */; };
+		AE29C0241636374D0032B203 /* EncyclopediaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE29C0221636374D0032B203 /* EncyclopediaViewController.xib */; };
+		AE29C029163645120032B203 /* EncyclopediaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE29C027163645120032B203 /* EncyclopediaDetailViewController.m */; };
+		AE29C02A163645120032B203 /* EncyclopediaDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE29C028163645120032B203 /* EncyclopediaDetailViewController.xib */; };
+		AE29C02F16364C650032B203 /* CharacterDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE29C02D16364C650032B203 /* CharacterDetailTableViewCell.m */; };
+		AE29C03016364C650032B203 /* CharacterDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE29C02E16364C650032B203 /* CharacterDetailTableViewCell.xib */; };
+		AE29C03416365EB50032B203 /* CharacterDetailHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE29C03216365EB40032B203 /* CharacterDetailHeaderViewController.m */; };
+		AE29C03516365EB50032B203 /* CharacterDetailHeaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE29C03316365EB50032B203 /* CharacterDetailHeaderViewController.xib */; };
+		AE29C03B163664290032B203 /* SingleCharacterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE29C039163664290032B203 /* SingleCharacterDetailViewController.m */; };
+		AE29C03C163664290032B203 /* SingleCharacterDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE29C03A163664290032B203 /* SingleCharacterDetailViewController.xib */; };
+		AE50B3C816327BCC00B98559 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE50B3C716327BCC00B98559 /* UIKit.framework */; };
+		AE50B3CA16327BCC00B98559 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE50B3C916327BCC00B98559 /* Foundation.framework */; };
+		AE50B3CC16327BCC00B98559 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE50B3CB16327BCC00B98559 /* CoreGraphics.framework */; };
+		AE50B3D216327BCC00B98559 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE50B3D016327BCC00B98559 /* InfoPlist.strings */; };
+		AE50B3D416327BCC00B98559 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50B3D316327BCC00B98559 /* main.m */; };
+		AE50B3D816327BCC00B98559 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50B3D716327BCC00B98559 /* AppDelegate.m */; };
+		AE50B3F416327BCC00B98559 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE50B3F316327BCC00B98559 /* SenTestingKit.framework */; };
+		AE50B3F516327BCC00B98559 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE50B3C716327BCC00B98559 /* UIKit.framework */; };
+		AE50B3F616327BCC00B98559 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE50B3C916327BCC00B98559 /* Foundation.framework */; };
+		AE50B3FE16327BCC00B98559 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE50B3FC16327BCC00B98559 /* InfoPlist.strings */; };
+		AE50B40116327BCC00B98559 /* Puzzle_Strike_RandomizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50B40016327BCC00B98559 /* Puzzle_Strike_RandomizerTests.m */; };
+		AE50B40D16327D0E00B98559 /* RandomChipSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50B40C16327D0E00B98559 /* RandomChipSelector.m */; };
+		AE50B410163284B800B98559 /* CharacterChips.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE50B40F163284B800B98559 /* CharacterChips.plist */; };
+		AE50B41216328FDA00B98559 /* PuzzleChips.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE50B41116328FDA00B98559 /* PuzzleChips.plist */; };
+		AE50B4171632999F00B98559 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50B4151632999F00B98559 /* MainMenuViewController.m */; };
+		AE50B4181632999F00B98559 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4161632999F00B98559 /* MainMenuViewController.xib */; };
+		AE50B4981633116200B98559 /* RandomizerRecapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50B4961633116200B98559 /* RandomizerRecapViewController.m */; };
+		AE50B4991633116200B98559 /* RandomizerRecapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4971633116200B98559 /* RandomizerRecapViewController.xib */; };
+		AE50B49D16336A1800B98559 /* RecapHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50B49B16336A1800B98559 /* RecapHeaderViewController.m */; };
+		AE50B49E16336A1800B98559 /* RecapHeaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE50B49C16336A1800B98559 /* RecapHeaderViewController.xib */; };
+		AE50B4A216336EF400B98559 /* CharacterChipTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50B4A016336EF400B98559 /* CharacterChipTableViewCell.m */; };
+		AE50B4A316336EF400B98559 /* CharacterChipTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4A116336EF400B98559 /* CharacterChipTableViewCell.xib */; };
+		AE50B4F11633896600B98559 /* PS_Training_Day.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4DA1633896600B98559 /* PS_Training_Day.png */; };
+		AE50B4F21633896600B98559 /* PS_Thinking_Ahead.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4DB1633896600B98559 /* PS_Thinking_Ahead.png */; };
+		AE50B4F31633896600B98559 /* PS_Stolen_Purples.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4DC1633896600B98559 /* PS_Stolen_Purples.png */; };
+		AE50B4F41633896600B98559 /* PS_Self-Improvement.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4DD1633896600B98559 /* PS_Self-Improvement.png */; };
+		AE50B4F51633896600B98559 /* PS_Sneak_Attack.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4DE1633896600B98559 /* PS_Sneak_Attack.png */; };
+		AE50B4F61633896600B98559 /* PS_Secret_Move.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4DF1633896600B98559 /* PS_Secret_Move.png */; };
+		AE50B4F71633896600B98559 /* PS_Sale_Prices.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4E01633896600B98559 /* PS_Sale_Prices.png */; };
+		AE50B4F81633896600B98559 /* PS_Roundhouse.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4E11633896600B98559 /* PS_Roundhouse.png */; };
+		AE50B4F91633896600B98559 /* PS_Risky_Move.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4E21633896600B98559 /* PS_Risky_Move.png */; };
+		AE50B4FA1633896600B98559 /* PS_Really_Annoying.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4E31633896600B98559 /* PS_Really_Annoying.png */; };
+		AE50B4FB1633896600B98559 /* PS_Recklessness.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4E41633896600B98559 /* PS_Recklessness.png */; };
+		AE50B4FC1633896600B98559 /* PS_One-Two_Punch.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4E51633896600B98559 /* PS_One-Two_Punch.png */; };
+		AE50B4FD1633896600B98559 /* PS_One_of_Each.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4E61633896600B98559 /* PS_One_of_Each.png */; };
+		AE50B4FE1633896600B98559 /* PS_Mix-Master.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4E71633896600B98559 /* PS_Mix-Master.png */; };
+		AE50B4FF1633896600B98559 /* PS_Master_Puzzler.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4E81633896600B98559 /* PS_Master_Puzzler.png */; };
+		AE50B5001633896600B98559 /* PS_Knockdown.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4E91633896600B98559 /* PS_Knockdown.png */; };
+		AE50B5011633896600B98559 /* PS_Iron_Defense.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4EA1633896600B98559 /* PS_Iron_Defense.png */; };
+		AE50B5021633896600B98559 /* PS_It's_Combo_Time.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4EB1633896600B98559 /* PS_It's_Combo_Time.png */; };
+		AE50B5031633896600B98559 /* PS_It's_a_Trap.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4EC1633896600B98559 /* PS_It's_a_Trap.png */; };
+		AE50B5041633896600B98559 /* PS_Gems_to_Gemonade.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4ED1633896600B98559 /* PS_Gems_to_Gemonade.png */; };
+		AE50B5051633896600B98559 /* PS_Gem_Essence.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4EE1633896600B98559 /* PS_Gem_Essence.png */; };
+		AE50B5061633896600B98559 /* PS_Draw_Three.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4EF1633896600B98559 /* PS_Draw_Three.png */; };
+		AE50B5071633896600B98559 /* PS_Combos_Are_Hard.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B4F01633896600B98559 /* PS_Combos_Are_Hard.png */; };
+		AE50B52716338A2E00B98559 /* PS_Protective_Ward.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B50916338A2E00B98559 /* PS_Protective_Ward.png */; };
+		AE50B52816338A2E00B98559 /* PS_Bubble_Shield.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B50A16338A2E00B98559 /* PS_Bubble_Shield.png */; };
+		AE50B52916338A2E00B98559 /* PS_Hex_of_Murkwood.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B50B16338A2E00B98559 /* PS_Hex_of_Murkwood.png */; };
+		AE50B52A16338A2E00B98559 /* PS_It's_Time_for_the_Past.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B50C16338A2E00B98559 /* PS_It's_Time_for_the_Past.png */; };
+		AE50B52B16338A2E00B98559 /* PS_Future_Sight.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B50D16338A2E00B98559 /* PS_Future_Sight.png */; };
+		AE50B52C16338A2E00B98559 /* PS_Research_&_Development.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B50E16338A2E00B98559 /* PS_Research_&_Development.png */; };
+		AE50B52D16338A2E00B98559 /* PS_Troublesome_Rhetoric.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B50F16338A2E00B98559 /* PS_Troublesome_Rhetoric.png */; };
+		AE50B52E16338A2E00B98559 /* PS_No_More_Lies.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B51016338A2E00B98559 /* PS_No_More_Lies.png */; };
+		AE50B52F16338A2E00B98559 /* PS_Pilebunker.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B51116338A2E00B98559 /* PS_Pilebunker.png */; };
+		AE50B53016338A2E00B98559 /* PS_Double-take.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B51216338A2E00B98559 /* PS_Double-take.png */; };
+		AE50B53116338A2E00B98559 /* PS_Bag_of_Tricks.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B51316338A2E00B98559 /* PS_Bag_of_Tricks.png */; };
+		AE50B53216338A2E00B98559 /* PS_Speed_of_the_Fox.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B51416338A2E00B98559 /* PS_Speed_of_the_Fox.png */; };
+		AE50B53316338A2E00B98559 /* PS_Unstable_Power.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B51516338A2E00B98559 /* PS_Unstable_Power.png */; };
+		AE50B53416338A2E00B98559 /* PS_Burning_Vigor.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B51616338A2E00B98559 /* PS_Burning_Vigor.png */; };
+		AE50B53516338A2E00B98559 /* PS_Playing_with_Fire.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B51716338A2E00B98559 /* PS_Playing_with_Fire.png */; };
+		AE50B53616338A2E00B98559 /* PS_Living_on_the_Edge.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B51816338A2E00B98559 /* PS_Living_on_the_Edge.png */; };
+		AE50B53716338A2E00B98559 /* PS_Panda's_Bargain.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B51916338A2E00B98559 /* PS_Panda's_Bargain.png */; };
+		AE50B53816338A2E00B98559 /* PS_Jackpot.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B51A16338A2E00B98559 /* PS_Jackpot.png */; };
+		AE50B53916338A2E00B98559 /* PS_Creative_Thoughts.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B51B16338A2E00B98559 /* PS_Creative_Thoughts.png */; };
+		AE50B53A16338A2E00B98559 /* PS_Chromatic_Orb.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B51C16338A2E00B98559 /* PS_Chromatic_Orb.png */; };
+		AE50B53B16338A2E00B98559 /* PS_Three_Colors.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B51D16338A2E00B98559 /* PS_Three_Colors.png */; };
+		AE50B53C16338A2E00B98559 /* PS_Strength_of_Earth.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B51E16338A2E00B98559 /* PS_Strength_of_Earth.png */; };
+		AE50B53D16338A2E00B98559 /* PS_Big_Rocks.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B51F16338A2E00B98559 /* PS_Big_Rocks.png */; };
+		AE50B53E16338A2E00B98559 /* PS_Stone_Wall.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B52016338A2E00B98559 /* PS_Stone_Wall.png */; };
+		AE50B53F16338A2E00B98559 /* PS_Purge_Bad_Habits.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B52116338A2E00B98559 /* PS_Purge_Bad_Habits.png */; };
+		AE50B54016338A2E00B98559 /* PS_Rigorous_Training.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B52216338A2E00B98559 /* PS_Rigorous_Training.png */; };
+		AE50B54116338A2E00B98559 /* PS_Dragon_Form.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B52316338A2E00B98559 /* PS_Dragon_Form.png */; };
+		AE50B54216338A2E00B98559 /* PS_Versatile_Style.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B52416338A2E00B98559 /* PS_Versatile_Style.png */; };
+		AE50B54316338A2E00B98559 /* PS_Martial_Mastery.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B52516338A2E00B98559 /* PS_Martial_Mastery.png */; };
+		AE50B54416338A2E00B98559 /* PS_Reversal.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B52616338A2E00B98559 /* PS_Reversal.png */; };
+		AE50B55016338A6500B98559 /* CCArgagarg.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B54616338A6500B98559 /* CCArgagarg.png */; };
+		AE50B55116338A6500B98559 /* CCGeiger.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B54716338A6500B98559 /* CCGeiger.png */; };
+		AE50B55216338A6500B98559 /* CCDeGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B54816338A6500B98559 /* CCDeGrey.png */; };
+		AE50B55316338A6500B98559 /* CCSetsuki.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B54916338A6500B98559 /* CCSetsuki.png */; };
+		AE50B55416338A6500B98559 /* CCJaina.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B54A16338A6500B98559 /* CCJaina.png */; };
+		AE50B55516338A6500B98559 /* CCLum.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B54B16338A6500B98559 /* CCLum.png */; };
+		AE50B55616338A6500B98559 /* CCValerie.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B54C16338A6500B98559 /* CCValerie.png */; };
+		AE50B55716338A6500B98559 /* CCRook.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B54D16338A6500B98559 /* CCRook.png */; };
+		AE50B55816338A6500B98559 /* CCMidori.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B54E16338A6500B98559 /* CCMidori.png */; };
+		AE50B55916338A6500B98559 /* CCGrave.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B54F16338A6500B98559 /* CCGrave.png */; };
+		AE50B55D1633915C00B98559 /* PuzzleChipTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50B55B1633915B00B98559 /* PuzzleChipTableViewCell.m */; };
+		AE50B55E1633915C00B98559 /* PuzzleChipTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE50B55C1633915B00B98559 /* PuzzleChipTableViewCell.xib */; };
+		AE50B5611633B2E900B98559 /* PSLogoHigh.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B5601633B2E900B98559 /* PSLogoHigh.png */; };
+		AE50B5631634894400B98559 /* PSRAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B5621634894400B98559 /* PSRAppIcon.png */; };
+		AE50B56516348B0500B98559 /* removeContact.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B56416348B0500B98559 /* removeContact.png */; };
+		AE50B5711634ED5D00B98559 /* CCZane.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B5671634ED5D00B98559 /* CCZane.png */; };
+		AE50B5721634ED5D00B98559 /* CCGwen.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B5681634ED5D00B98559 /* CCGwen.png */; };
+		AE50B5731634ED5D00B98559 /* CBPersephone.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B5691634ED5D00B98559 /* CBPersephone.png */; };
+		AE50B5741634ED5D00B98559 /* CCBBB.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B56A1634ED5D00B98559 /* CCBBB.png */; };
+		AE50B5751634ED5D00B98559 /* CCOnimaru.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B56B1634ED5D00B98559 /* CCOnimaru.png */; };
+		AE50B5761634ED5D00B98559 /* CCVendetta.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B56C1634ED5D00B98559 /* CCVendetta.png */; };
+		AE50B5771634ED5D00B98559 /* CCGloria.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B56D1634ED5D00B98559 /* CCGloria.png */; };
+		AE50B5781634ED5D00B98559 /* CBMenelker.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B56E1634ED5D00B98559 /* CBMenelker.png */; };
+		AE50B5791634ED5D00B98559 /* CCTroq.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B56F1634ED5D00B98559 /* CCTroq.png */; };
+		AE50B57A1634ED5D00B98559 /* CCQuince.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B5701634ED5D00B98559 /* CCQuince.png */; };
+		AE50B5951635060F00B98559 /* PS_X-Copy.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B57C1635060F00B98559 /* PS_X-Copy.png */; };
+		AE50B5961635060F00B98559 /* PS_The_Hammer.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B57D1635060F00B98559 /* PS_The_Hammer.png */; };
+		AE50B5971635060F00B98559 /* PS_Signature_Move.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B57E1635060F00B98559 /* PS_Signature_Move.png */; };
+		AE50B5981635060F00B98559 /* PS_Safe_Keeping.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B57F1635060F00B98559 /* PS_Safe_Keeping.png */; };
+		AE50B5991635060F00B98559 /* PS_Risk_to_Riskonade.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B5801635060F00B98559 /* PS_Risk_to_Riskonade.png */; };
+		AE50B59A1635060F00B98559 /* PS_Repeated_Jabs.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B5811635060F00B98559 /* PS_Repeated_Jabs.png */; };
+		AE50B59B1635060F00B98559 /* PS_Punch_Punch_Kick.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B5821635060F00B98559 /* PS_Punch_Punch_Kick.png */; };
+		AE50B59C1635060F00B98559 /* PS_Pick_Your_Poison.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B5831635060F00B98559 /* PS_Pick_Your_Poison.png */; };
+		AE50B59D1635060F00B98559 /* PS_Ouch!.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B5841635060F00B98559 /* PS_Ouch!.png */; };
+		AE50B59E1635060F00B98559 /* PS_Option_Select.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B5851635060F00B98559 /* PS_Option_Select.png */; };
+		AE50B59F1635060F00B98559 /* PS_One_True_Style.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B5861635060F00B98559 /* PS_One_True_Style.png */; };
+		AE50B5A01635060F00B98559 /* PS_Now_or_Later.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B5871635060F00B98559 /* PS_Now_or_Later.png */; };
+		AE50B5A11635060F00B98559 /* PS_Money_for_Nothing.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B5881635060F00B98559 /* PS_Money_for_Nothing.png */; };
+		AE50B5A21635060F00B98559 /* PS_Just_a_Scratch.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B5891635060F00B98559 /* PS_Just_a_Scratch.png */; };
+		AE50B5A31635060F00B98559 /* PS_Improvisation.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B58A1635060F00B98559 /* PS_Improvisation.png */; };
+		AE50B5A41635060F00B98559 /* PS_Hundred-Fist_Frenzy.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B58B1635060F00B98559 /* PS_Hundred-Fist_Frenzy.png */; };
+		AE50B5A51635060F00B98559 /* PS_Ebb_or_Flow.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B58C1635060F00B98559 /* PS_Ebb_or_Flow.png */; };
+		AE50B5A61635060F00B98559 /* PS_Degenerate_Trasher.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B58D1635060F00B98559 /* PS_Degenerate_Trasher.png */; };
+		AE50B5A71635060F00B98559 /* PS_Color_Panic.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B58E1635060F00B98559 /* PS_Color_Panic.png */; };
+		AE50B5A81635060F00B98559 /* PS_Chips_for_Free.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B58F1635060F00B98559 /* PS_Chips_for_Free.png */; };
+		AE50B5A91635060F00B98559 /* PS_Button_Mashing.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B5901635060F00B98559 /* PS_Button_Mashing.png */; };
+		AE50B5AA1635060F00B98559 /* PS_Blues_are_Good.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B5911635060F00B98559 /* PS_Blues_are_Good.png */; };
+		AE50B5AB1635060F00B98559 /* PS_Bang_then_Fizzle.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B5921635060F00B98559 /* PS_Bang_then_Fizzle.png */; };
+		AE50B5AC1635060F00B98559 /* PS_Axe_Kick.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B5931635060F00B98559 /* PS_Axe_Kick.png */; };
+		AE50B5AD1635060F00B98559 /* PS_Combo_Practice.png in Resources */ = {isa = PBXBuildFile; fileRef = AE50B5941635060F00B98559 /* PS_Combo_Practice.png */; };
+		AE5761B51637B260000206FB /* PS_Maximum_Anarchy.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761971637B260000206FB /* PS_Maximum_Anarchy.png */; };
+		AE5761B61637B260000206FB /* PS_Crash_Bomb.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761981637B260000206FB /* PS_Crash_Bomb.png */; };
+		AE5761B71637B260000206FB /* PS_Crash_Potato.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761991637B260000206FB /* PS_Crash_Potato.png */; };
+		AE5761B81637B260000206FB /* PS_Shadowswarm.png in Resources */ = {isa = PBXBuildFile; fileRef = AE57619A1637B260000206FB /* PS_Shadowswarm.png */; };
+		AE5761B91637B260000206FB /* PS_Burnbarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = AE57619B1637B260000206FB /* PS_Burnbarrow.png */; };
+		AE5761BA1637B260000206FB /* PS_Shadow_Plague.png in Resources */ = {isa = PBXBuildFile; fileRef = AE57619C1637B260000206FB /* PS_Shadow_Plague.png */; };
+		AE5761BB1637B260000206FB /* PS_Mistress's_Command.png in Resources */ = {isa = PBXBuildFile; fileRef = AE57619D1637B260000206FB /* PS_Mistress's_Command.png */; };
+		AE5761BC1637B260000206FB /* PS_Always_in_Control.png in Resources */ = {isa = PBXBuildFile; fileRef = AE57619E1637B260000206FB /* PS_Always_in_Control.png */; };
+		AE5761BD1637B260000206FB /* PS_Pleasure_&_Pain.png in Resources */ = {isa = PBXBuildFile; fileRef = AE57619F1637B260000206FB /* PS_Pleasure_&_Pain.png */; };
+		AE5761BE1637B260000206FB /* PS_Rocket_Punch.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761A01637B260000206FB /* PS_Rocket_Punch.png */; };
+		AE5761BF1637B260000206FB /* PS_Cog_Engine.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761A11637B260000206FB /* PS_Cog_Engine.png */; };
+		AE5761C01637B260000206FB /* PS_Upgrade.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761A21637B260000206FB /* PS_Upgrade.png */; };
+		AE5761C11637B260000206FB /* PS_Wartime_Tactics.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761A31637B260000206FB /* PS_Wartime_Tactics.png */; };
+		AE5761C21637B260000206FB /* PS_Double_Slash.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761A41637B260000206FB /* PS_Double_Slash.png */; };
+		AE5761C31637B260000206FB /* PS_Riposte.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761A51637B260000206FB /* PS_Riposte.png */; };
+		AE5761C41637B260000206FB /* PS_Surgical_Strike.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761A61637B260000206FB /* PS_Surgical_Strike.png */; };
+		AE5761C51637B260000206FB /* PS_Acrobatics.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761A71637B260000206FB /* PS_Acrobatics.png */; };
+		AE5761C61637B260000206FB /* PS_Stunlock.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761A81637B260000206FB /* PS_Stunlock.png */; };
+		AE5761C71637B260000206FB /* PS_Saving_Grace.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761A91637B260000206FB /* PS_Saving_Grace.png */; };
+		AE5761C81637B260000206FB /* PS_Healing_Touch.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761AA1637B260000206FB /* PS_Healing_Touch.png */; };
+		AE5761C91637B260000206FB /* PS_Radiant_Healing.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761AB1637B260000206FB /* PS_Radiant_Healing.png */; };
+		AE5761CA1637B260000206FB /* PS_Deathstrike_Dragon.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761AC1637B260000206FB /* PS_Deathstrike_Dragon.png */; };
+		AE5761CB1637B260000206FB /* PS_Into_Oblivion.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761AD1637B260000206FB /* PS_Into_Oblivion.png */; };
+		AE5761CC1637B260000206FB /* PS_Bonecracker.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761AE1637B260000206FB /* PS_Bonecracker.png */; };
+		AE5761CD1637B260000206FB /* PS_Beast_Unleashed.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761AF1637B260000206FB /* PS_Beast_Unleashed.png */; };
+		AE5761CE1637B260000206FB /* PS_More_Shiny.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761B01637B260000206FB /* PS_More_Shiny.png */; };
+		AE5761CF1637B260000206FB /* PS_Giant_Growth.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761B11637B260000206FB /* PS_Giant_Growth.png */; };
+		AE5761D01637B260000206FB /* PS_Two_Truths.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761B21637B260000206FB /* PS_Two_Truths.png */; };
+		AE5761D11637B260000206FB /* PS_Patriot_Mirror.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761B31637B260000206FB /* PS_Patriot_Mirror.png */; };
+		AE5761D21637B260000206FB /* PS_Flagstone_Tax.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5761B41637B260000206FB /* PS_Flagstone_Tax.png */; };
+		AE5761D61637B8F7000206FB /* PuzzleChipDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5761D41637B8F6000206FB /* PuzzleChipDetailTableViewCell.m */; };
+		AE5761D71637B8F7000206FB /* PuzzleChipDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE5761D51637B8F7000206FB /* PuzzleChipDetailTableViewCell.xib */; };
+		AE5761DB1637BD64000206FB /* SinglePuzzleChipDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5761D91637BD63000206FB /* SinglePuzzleChipDetailViewController.m */; };
+		AE5761DC1637BD64000206FB /* SinglePuzzleChipDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE5761DA1637BD64000206FB /* SinglePuzzleChipDetailViewController.xib */; };
+		AEAD9BDB163885290094DD59 /* ps_triangle_web.png in Resources */ = {isa = PBXBuildFile; fileRef = AEAD9BDA163885290094DD59 /* ps_triangle_web.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE50B3F716327BCC00B98559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE50B3BA16327BCC00B98559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE50B3C216327BCC00B98559;
+			remoteInfo = "Puzzle Strike Randomizer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E3D5D1B1703E95600952A63 /* psr144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psr144.png; sourceTree = "<group>"; };
+		8E3D5D1C1703E95600952A63 /* psr114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psr114.png; sourceTree = "<group>"; };
+		8E3D5D1D1703E95600952A63 /* psr57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psr57.png; sourceTree = "<group>"; };
+		8E3D5D1E1703E95600952A63 /* psr72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psr72.png; sourceTree = "<group>"; };
+		8E3D5D231703EB2800952A63 /* psricon500x500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psricon500x500.png; sourceTree = "<group>"; };
+		8E3D5DD61713CE7100952A63 /* psr_dice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psr_dice.png; sourceTree = "<group>"; };
+		8E3D5DD91713D1B200952A63 /* 198-card-spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "198-card-spades.png"; sourceTree = "<group>"; };
+		8E3D5DDB1713D27700952A63 /* 157-wrench.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "157-wrench.png"; sourceTree = "<group>"; };
+		8E3D5DDD1713D3AA00952A63 /* 123-id-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "123-id-card.png"; sourceTree = "<group>"; };
+		8E3D5DDF1713D45400952A63 /* 96-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "96-book.png"; sourceTree = "<group>"; };
+		8E514264166085CE00A0D76D /* ConfigureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigureViewController.h; sourceTree = "<group>"; };
+		8E514265166085CE00A0D76D /* ConfigureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigureViewController.m; sourceTree = "<group>"; };
+		8E514266166085CE00A0D76D /* ConfigureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigureViewController.xib; sourceTree = "<group>"; };
+		8E688BF416AE254E00BB41CB /* AboutScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutScreenViewController.h; sourceTree = "<group>"; };
+		8E688BF516AE254F00BB41CB /* AboutScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutScreenViewController.m; sourceTree = "<group>"; };
+		8E688BF616AE254F00BB41CB /* AboutScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutScreenViewController.xib; sourceTree = "<group>"; };
+		8EA3614F16A3BF7100B38058 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8EA3615016A3BF7100B38058 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		8EA3615116A3BF7100B38058 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		8EA3615216A3BF7100B38058 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		8EA9F971164B798B00092C42 /* RandomizerSettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomizerSettingsManager.h; sourceTree = "<group>"; };
+		8EA9F972164B798B00092C42 /* RandomizerSettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomizerSettingsManager.m; sourceTree = "<group>"; };
+		8EDA0F911647543300DFA321 /* ConfigureRandomizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigureRandomizerViewController.h; sourceTree = "<group>"; };
+		8EDA0F921647543300DFA321 /* ConfigureRandomizerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigureRandomizerViewController.m; sourceTree = "<group>"; };
+		8EDA0F931647543300DFA321 /* ConfigureRandomizerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigureRandomizerViewController.xib; sourceTree = "<group>"; };
+		8EDA0F971648E3B500DFA321 /* ConfigureTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigureTableViewCell.h; sourceTree = "<group>"; };
+		8EDA0F981648E3B600DFA321 /* ConfigureTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigureTableViewCell.m; sourceTree = "<group>"; };
+		8EDA0F991648E3B600DFA321 /* ConfigureTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigureTableViewCell.xib; sourceTree = "<group>"; };
+		8EEF2518165FED390096F642 /* ConfigureCharacterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigureCharacterTableViewCell.h; sourceTree = "<group>"; };
+		8EEF2519165FED390096F642 /* ConfigureCharacterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigureCharacterTableViewCell.m; sourceTree = "<group>"; };
+		8EEF251A165FED390096F642 /* ConfigureCharacterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigureCharacterTableViewCell.xib; sourceTree = "<group>"; };
+		AE29C0201636374D0032B203 /* EncyclopediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncyclopediaViewController.h; sourceTree = "<group>"; };
+		AE29C0211636374D0032B203 /* EncyclopediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncyclopediaViewController.m; sourceTree = "<group>"; };
+		AE29C0221636374D0032B203 /* EncyclopediaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EncyclopediaViewController.xib; sourceTree = "<group>"; };
+		AE29C026163645120032B203 /* EncyclopediaDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncyclopediaDetailViewController.h; sourceTree = "<group>"; };
+		AE29C027163645120032B203 /* EncyclopediaDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncyclopediaDetailViewController.m; sourceTree = "<group>"; };
+		AE29C028163645120032B203 /* EncyclopediaDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EncyclopediaDetailViewController.xib; sourceTree = "<group>"; };
+		AE29C02C16364C650032B203 /* CharacterDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterDetailTableViewCell.h; sourceTree = "<group>"; };
+		AE29C02D16364C650032B203 /* CharacterDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterDetailTableViewCell.m; sourceTree = "<group>"; };
+		AE29C02E16364C650032B203 /* CharacterDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterDetailTableViewCell.xib; sourceTree = "<group>"; };
+		AE29C03116365EB40032B203 /* CharacterDetailHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterDetailHeaderViewController.h; sourceTree = "<group>"; };
+		AE29C03216365EB40032B203 /* CharacterDetailHeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterDetailHeaderViewController.m; sourceTree = "<group>"; };
+		AE29C03316365EB50032B203 /* CharacterDetailHeaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterDetailHeaderViewController.xib; sourceTree = "<group>"; };
+		AE29C038163664290032B203 /* SingleCharacterDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleCharacterDetailViewController.h; sourceTree = "<group>"; };
+		AE29C039163664290032B203 /* SingleCharacterDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleCharacterDetailViewController.m; sourceTree = "<group>"; };
+		AE29C03A163664290032B203 /* SingleCharacterDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleCharacterDetailViewController.xib; sourceTree = "<group>"; };
+		AE50B3C316327BCC00B98559 /* PSCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE50B3C716327BCC00B98559 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE50B3C916327BCC00B98559 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE50B3CB16327BCC00B98559 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE50B3CF16327BCC00B98559 /* Puzzle Strike Randomizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Puzzle Strike Randomizer-Info.plist"; sourceTree = "<group>"; };
+		AE50B3D116327BCC00B98559 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE50B3D316327BCC00B98559 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE50B3D516327BCC00B98559 /* Puzzle Strike Randomizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Puzzle Strike Randomizer-Prefix.pch"; sourceTree = "<group>"; };
+		AE50B3D616327BCC00B98559 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE50B3D716327BCC00B98559 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE50B3F216327BCC00B98559 /* Puzzle Strike RandomizerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Puzzle Strike RandomizerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE50B3F316327BCC00B98559 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AE50B3FB16327BCC00B98559 /* Puzzle Strike RandomizerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Puzzle Strike RandomizerTests-Info.plist"; sourceTree = "<group>"; };
+		AE50B3FD16327BCC00B98559 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE50B3FF16327BCC00B98559 /* Puzzle_Strike_RandomizerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Puzzle_Strike_RandomizerTests.h; sourceTree = "<group>"; };
+		AE50B40016327BCC00B98559 /* Puzzle_Strike_RandomizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Puzzle_Strike_RandomizerTests.m; sourceTree = "<group>"; };
+		AE50B40B16327D0E00B98559 /* RandomChipSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomChipSelector.h; sourceTree = "<group>"; };
+		AE50B40C16327D0E00B98559 /* RandomChipSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomChipSelector.m; sourceTree = "<group>"; };
+		AE50B40F163284B800B98559 /* CharacterChips.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CharacterChips.plist; sourceTree = "<group>"; };
+		AE50B41116328FDA00B98559 /* PuzzleChips.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PuzzleChips.plist; sourceTree = "<group>"; };
+		AE50B4141632999F00B98559 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		AE50B4151632999F00B98559 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		AE50B4161632999F00B98559 /* MainMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuViewController.xib; sourceTree = "<group>"; };
+		AE50B4951633116200B98559 /* RandomizerRecapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomizerRecapViewController.h; sourceTree = "<group>"; };
+		AE50B4961633116200B98559 /* RandomizerRecapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomizerRecapViewController.m; sourceTree = "<group>"; };
+		AE50B4971633116200B98559 /* RandomizerRecapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RandomizerRecapViewController.xib; sourceTree = "<group>"; };
+		AE50B49A16336A1800B98559 /* RecapHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecapHeaderViewController.h; sourceTree = "<group>"; };
+		AE50B49B16336A1800B98559 /* RecapHeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecapHeaderViewController.m; sourceTree = "<group>"; };
+		AE50B49C16336A1800B98559 /* RecapHeaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecapHeaderViewController.xib; sourceTree = "<group>"; };
+		AE50B49F16336EF400B98559 /* CharacterChipTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterChipTableViewCell.h; sourceTree = "<group>"; };
+		AE50B4A016336EF400B98559 /* CharacterChipTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterChipTableViewCell.m; sourceTree = "<group>"; };
+		AE50B4A116336EF400B98559 /* CharacterChipTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterChipTableViewCell.xib; sourceTree = "<group>"; };
+		AE50B4DA1633896600B98559 /* PS_Training_Day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Training_Day.png; path = Resources/PS_Training_Day.png; sourceTree = "<group>"; };
+		AE50B4DB1633896600B98559 /* PS_Thinking_Ahead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Thinking_Ahead.png; path = Resources/PS_Thinking_Ahead.png; sourceTree = "<group>"; };
+		AE50B4DC1633896600B98559 /* PS_Stolen_Purples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Stolen_Purples.png; path = Resources/PS_Stolen_Purples.png; sourceTree = "<group>"; };
+		AE50B4DD1633896600B98559 /* PS_Self-Improvement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PS_Self-Improvement.png"; path = "Resources/PS_Self-Improvement.png"; sourceTree = "<group>"; };
+		AE50B4DE1633896600B98559 /* PS_Sneak_Attack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Sneak_Attack.png; path = Resources/PS_Sneak_Attack.png; sourceTree = "<group>"; };
+		AE50B4DF1633896600B98559 /* PS_Secret_Move.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Secret_Move.png; path = Resources/PS_Secret_Move.png; sourceTree = "<group>"; };
+		AE50B4E01633896600B98559 /* PS_Sale_Prices.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Sale_Prices.png; path = Resources/PS_Sale_Prices.png; sourceTree = "<group>"; };
+		AE50B4E11633896600B98559 /* PS_Roundhouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Roundhouse.png; path = Resources/PS_Roundhouse.png; sourceTree = "<group>"; };
+		AE50B4E21633896600B98559 /* PS_Risky_Move.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Risky_Move.png; path = Resources/PS_Risky_Move.png; sourceTree = "<group>"; };
+		AE50B4E31633896600B98559 /* PS_Really_Annoying.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Really_Annoying.png; path = Resources/PS_Really_Annoying.png; sourceTree = "<group>"; };
+		AE50B4E41633896600B98559 /* PS_Recklessness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Recklessness.png; path = Resources/PS_Recklessness.png; sourceTree = "<group>"; };
+		AE50B4E51633896600B98559 /* PS_One-Two_Punch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PS_One-Two_Punch.png"; path = "Resources/PS_One-Two_Punch.png"; sourceTree = "<group>"; };
+		AE50B4E61633896600B98559 /* PS_One_of_Each.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_One_of_Each.png; path = Resources/PS_One_of_Each.png; sourceTree = "<group>"; };
+		AE50B4E71633896600B98559 /* PS_Mix-Master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PS_Mix-Master.png"; path = "Resources/PS_Mix-Master.png"; sourceTree = "<group>"; };
+		AE50B4E81633896600B98559 /* PS_Master_Puzzler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Master_Puzzler.png; path = Resources/PS_Master_Puzzler.png; sourceTree = "<group>"; };
+		AE50B4E91633896600B98559 /* PS_Knockdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Knockdown.png; path = Resources/PS_Knockdown.png; sourceTree = "<group>"; };
+		AE50B4EA1633896600B98559 /* PS_Iron_Defense.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Iron_Defense.png; path = Resources/PS_Iron_Defense.png; sourceTree = "<group>"; };
+		AE50B4EB1633896600B98559 /* PS_It's_Combo_Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PS_It's_Combo_Time.png"; path = "Resources/PS_It's_Combo_Time.png"; sourceTree = "<group>"; };
+		AE50B4EC1633896600B98559 /* PS_It's_a_Trap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PS_It's_a_Trap.png"; path = "Resources/PS_It's_a_Trap.png"; sourceTree = "<group>"; };
+		AE50B4ED1633896600B98559 /* PS_Gems_to_Gemonade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Gems_to_Gemonade.png; path = Resources/PS_Gems_to_Gemonade.png; sourceTree = "<group>"; };
+		AE50B4EE1633896600B98559 /* PS_Gem_Essence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Gem_Essence.png; path = Resources/PS_Gem_Essence.png; sourceTree = "<group>"; };
+		AE50B4EF1633896600B98559 /* PS_Draw_Three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Draw_Three.png; path = Resources/PS_Draw_Three.png; sourceTree = "<group>"; };
+		AE50B4F01633896600B98559 /* PS_Combos_Are_Hard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Combos_Are_Hard.png; path = Resources/PS_Combos_Are_Hard.png; sourceTree = "<group>"; };
+		AE50B50916338A2E00B98559 /* PS_Protective_Ward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Protective_Ward.png; path = Resources/PS_Protective_Ward.png; sourceTree = "<group>"; };
+		AE50B50A16338A2E00B98559 /* PS_Bubble_Shield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Bubble_Shield.png; path = Resources/PS_Bubble_Shield.png; sourceTree = "<group>"; };
+		AE50B50B16338A2E00B98559 /* PS_Hex_of_Murkwood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Hex_of_Murkwood.png; path = Resources/PS_Hex_of_Murkwood.png; sourceTree = "<group>"; };
+		AE50B50C16338A2E00B98559 /* PS_It's_Time_for_the_Past.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PS_It's_Time_for_the_Past.png"; path = "Resources/PS_It's_Time_for_the_Past.png"; sourceTree = "<group>"; };
+		AE50B50D16338A2E00B98559 /* PS_Future_Sight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Future_Sight.png; path = Resources/PS_Future_Sight.png; sourceTree = "<group>"; };
+		AE50B50E16338A2E00B98559 /* PS_Research_&_Development.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PS_Research_&_Development.png"; path = "Resources/PS_Research_&_Development.png"; sourceTree = "<group>"; };
+		AE50B50F16338A2E00B98559 /* PS_Troublesome_Rhetoric.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Troublesome_Rhetoric.png; path = Resources/PS_Troublesome_Rhetoric.png; sourceTree = "<group>"; };
+		AE50B51016338A2E00B98559 /* PS_No_More_Lies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_No_More_Lies.png; path = Resources/PS_No_More_Lies.png; sourceTree = "<group>"; };
+		AE50B51116338A2E00B98559 /* PS_Pilebunker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Pilebunker.png; path = Resources/PS_Pilebunker.png; sourceTree = "<group>"; };
+		AE50B51216338A2E00B98559 /* PS_Double-take.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PS_Double-take.png"; path = "Resources/PS_Double-take.png"; sourceTree = "<group>"; };
+		AE50B51316338A2E00B98559 /* PS_Bag_of_Tricks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Bag_of_Tricks.png; path = Resources/PS_Bag_of_Tricks.png; sourceTree = "<group>"; };
+		AE50B51416338A2E00B98559 /* PS_Speed_of_the_Fox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Speed_of_the_Fox.png; path = Resources/PS_Speed_of_the_Fox.png; sourceTree = "<group>"; };
+		AE50B51516338A2E00B98559 /* PS_Unstable_Power.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Unstable_Power.png; path = Resources/PS_Unstable_Power.png; sourceTree = "<group>"; };
+		AE50B51616338A2E00B98559 /* PS_Burning_Vigor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Burning_Vigor.png; path = Resources/PS_Burning_Vigor.png; sourceTree = "<group>"; };
+		AE50B51716338A2E00B98559 /* PS_Playing_with_Fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Playing_with_Fire.png; path = Resources/PS_Playing_with_Fire.png; sourceTree = "<group>"; };
+		AE50B51816338A2E00B98559 /* PS_Living_on_the_Edge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Living_on_the_Edge.png; path = Resources/PS_Living_on_the_Edge.png; sourceTree = "<group>"; };
+		AE50B51916338A2E00B98559 /* PS_Panda's_Bargain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PS_Panda's_Bargain.png"; path = "Resources/PS_Panda's_Bargain.png"; sourceTree = "<group>"; };
+		AE50B51A16338A2E00B98559 /* PS_Jackpot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Jackpot.png; path = Resources/PS_Jackpot.png; sourceTree = "<group>"; };
+		AE50B51B16338A2E00B98559 /* PS_Creative_Thoughts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Creative_Thoughts.png; path = Resources/PS_Creative_Thoughts.png; sourceTree = "<group>"; };
+		AE50B51C16338A2E00B98559 /* PS_Chromatic_Orb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Chromatic_Orb.png; path = Resources/PS_Chromatic_Orb.png; sourceTree = "<group>"; };
+		AE50B51D16338A2E00B98559 /* PS_Three_Colors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Three_Colors.png; path = Resources/PS_Three_Colors.png; sourceTree = "<group>"; };
+		AE50B51E16338A2E00B98559 /* PS_Strength_of_Earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Strength_of_Earth.png; path = Resources/PS_Strength_of_Earth.png; sourceTree = "<group>"; };
+		AE50B51F16338A2E00B98559 /* PS_Big_Rocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Big_Rocks.png; path = Resources/PS_Big_Rocks.png; sourceTree = "<group>"; };
+		AE50B52016338A2E00B98559 /* PS_Stone_Wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Stone_Wall.png; path = Resources/PS_Stone_Wall.png; sourceTree = "<group>"; };
+		AE50B52116338A2E00B98559 /* PS_Purge_Bad_Habits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Purge_Bad_Habits.png; path = Resources/PS_Purge_Bad_Habits.png; sourceTree = "<group>"; };
+		AE50B52216338A2E00B98559 /* PS_Rigorous_Training.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Rigorous_Training.png; path = Resources/PS_Rigorous_Training.png; sourceTree = "<group>"; };
+		AE50B52316338A2E00B98559 /* PS_Dragon_Form.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Dragon_Form.png; path = Resources/PS_Dragon_Form.png; sourceTree = "<group>"; };
+		AE50B52416338A2E00B98559 /* PS_Versatile_Style.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Versatile_Style.png; path = Resources/PS_Versatile_Style.png; sourceTree = "<group>"; };
+		AE50B52516338A2E00B98559 /* PS_Martial_Mastery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Martial_Mastery.png; path = Resources/PS_Martial_Mastery.png; sourceTree = "<group>"; };
+		AE50B52616338A2E00B98559 /* PS_Reversal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Reversal.png; path = Resources/PS_Reversal.png; sourceTree = "<group>"; };
+		AE50B54616338A6500B98559 /* CCArgagarg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CCArgagarg.png; path = Resources/CCArgagarg.png; sourceTree = "<group>"; };
+		AE50B54716338A6500B98559 /* CCGeiger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CCGeiger.png; path = Resources/CCGeiger.png; sourceTree = "<group>"; };
+		AE50B54816338A6500B98559 /* CCDeGrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CCDeGrey.png; path = Resources/CCDeGrey.png; sourceTree = "<group>"; };
+		AE50B54916338A6500B98559 /* CCSetsuki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CCSetsuki.png; path = Resources/CCSetsuki.png; sourceTree = "<group>"; };
+		AE50B54A16338A6500B98559 /* CCJaina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CCJaina.png; path = Resources/CCJaina.png; sourceTree = "<group>"; };
+		AE50B54B16338A6500B98559 /* CCLum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CCLum.png; path = Resources/CCLum.png; sourceTree = "<group>"; };
+		AE50B54C16338A6500B98559 /* CCValerie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CCValerie.png; path = Resources/CCValerie.png; sourceTree = "<group>"; };
+		AE50B54D16338A6500B98559 /* CCRook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CCRook.png; path = Resources/CCRook.png; sourceTree = "<group>"; };
+		AE50B54E16338A6500B98559 /* CCMidori.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CCMidori.png; path = Resources/CCMidori.png; sourceTree = "<group>"; };
+		AE50B54F16338A6500B98559 /* CCGrave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CCGrave.png; path = Resources/CCGrave.png; sourceTree = "<group>"; };
+		AE50B55A1633915B00B98559 /* PuzzleChipTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzleChipTableViewCell.h; sourceTree = "<group>"; };
+		AE50B55B1633915B00B98559 /* PuzzleChipTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzleChipTableViewCell.m; sourceTree = "<group>"; };
+		AE50B55C1633915B00B98559 /* PuzzleChipTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PuzzleChipTableViewCell.xib; sourceTree = "<group>"; };
+		AE50B5601633B2E900B98559 /* PSLogoHigh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PSLogoHigh.png; path = Resources/PSLogoHigh.png; sourceTree = "<group>"; };
+		AE50B5621634894400B98559 /* PSRAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PSRAppIcon.png; path = Resources/PSRAppIcon.png; sourceTree = "<group>"; };
+		AE50B56416348B0500B98559 /* removeContact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = removeContact.png; path = Resources/removeContact.png; sourceTree = "<group>"; };
+		AE50B5671634ED5D00B98559 /* CCZane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CCZane.png; path = Resources/thirdedition/CCZane.png; sourceTree = "<group>"; };
+		AE50B5681634ED5D00B98559 /* CCGwen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CCGwen.png; path = Resources/thirdedition/CCGwen.png; sourceTree = "<group>"; };
+		AE50B5691634ED5D00B98559 /* CBPersephone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CBPersephone.png; path = Resources/thirdedition/CBPersephone.png; sourceTree = "<group>"; };
+		AE50B56A1634ED5D00B98559 /* CCBBB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CCBBB.png; path = Resources/thirdedition/CCBBB.png; sourceTree = "<group>"; };
+		AE50B56B1634ED5D00B98559 /* CCOnimaru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CCOnimaru.png; path = Resources/thirdedition/CCOnimaru.png; sourceTree = "<group>"; };
+		AE50B56C1634ED5D00B98559 /* CCVendetta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CCVendetta.png; path = Resources/thirdedition/CCVendetta.png; sourceTree = "<group>"; };
+		AE50B56D1634ED5D00B98559 /* CCGloria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CCGloria.png; path = Resources/thirdedition/CCGloria.png; sourceTree = "<group>"; };
+		AE50B56E1634ED5D00B98559 /* CBMenelker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CBMenelker.png; path = Resources/thirdedition/CBMenelker.png; sourceTree = "<group>"; };
+		AE50B56F1634ED5D00B98559 /* CCTroq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CCTroq.png; path = Resources/thirdedition/CCTroq.png; sourceTree = "<group>"; };
+		AE50B5701634ED5D00B98559 /* CCQuince.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CCQuince.png; path = Resources/thirdedition/CCQuince.png; sourceTree = "<group>"; };
+		AE50B57C1635060F00B98559 /* PS_X-Copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PS_X-Copy.png"; path = "Resources/thirdedition/PS_X-Copy.png"; sourceTree = "<group>"; };
+		AE50B57D1635060F00B98559 /* PS_The_Hammer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_The_Hammer.png; path = Resources/thirdedition/PS_The_Hammer.png; sourceTree = "<group>"; };
+		AE50B57E1635060F00B98559 /* PS_Signature_Move.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Signature_Move.png; path = Resources/thirdedition/PS_Signature_Move.png; sourceTree = "<group>"; };
+		AE50B57F1635060F00B98559 /* PS_Safe_Keeping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Safe_Keeping.png; path = Resources/thirdedition/PS_Safe_Keeping.png; sourceTree = "<group>"; };
+		AE50B5801635060F00B98559 /* PS_Risk_to_Riskonade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Risk_to_Riskonade.png; path = Resources/thirdedition/PS_Risk_to_Riskonade.png; sourceTree = "<group>"; };
+		AE50B5811635060F00B98559 /* PS_Repeated_Jabs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Repeated_Jabs.png; path = Resources/thirdedition/PS_Repeated_Jabs.png; sourceTree = "<group>"; };
+		AE50B5821635060F00B98559 /* PS_Punch_Punch_Kick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Punch_Punch_Kick.png; path = Resources/thirdedition/PS_Punch_Punch_Kick.png; sourceTree = "<group>"; };
+		AE50B5831635060F00B98559 /* PS_Pick_Your_Poison.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Pick_Your_Poison.png; path = Resources/thirdedition/PS_Pick_Your_Poison.png; sourceTree = "<group>"; };
+		AE50B5841635060F00B98559 /* PS_Ouch!.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PS_Ouch!.png"; path = "Resources/thirdedition/PS_Ouch!.png"; sourceTree = "<group>"; };
+		AE50B5851635060F00B98559 /* PS_Option_Select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Option_Select.png; path = Resources/thirdedition/PS_Option_Select.png; sourceTree = "<group>"; };
+		AE50B5861635060F00B98559 /* PS_One_True_Style.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_One_True_Style.png; path = Resources/thirdedition/PS_One_True_Style.png; sourceTree = "<group>"; };
+		AE50B5871635060F00B98559 /* PS_Now_or_Later.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Now_or_Later.png; path = Resources/thirdedition/PS_Now_or_Later.png; sourceTree = "<group>"; };
+		AE50B5881635060F00B98559 /* PS_Money_for_Nothing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Money_for_Nothing.png; path = Resources/thirdedition/PS_Money_for_Nothing.png; sourceTree = "<group>"; };
+		AE50B5891635060F00B98559 /* PS_Just_a_Scratch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Just_a_Scratch.png; path = Resources/thirdedition/PS_Just_a_Scratch.png; sourceTree = "<group>"; };
+		AE50B58A1635060F00B98559 /* PS_Improvisation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Improvisation.png; path = Resources/thirdedition/PS_Improvisation.png; sourceTree = "<group>"; };
+		AE50B58B1635060F00B98559 /* PS_Hundred-Fist_Frenzy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PS_Hundred-Fist_Frenzy.png"; path = "Resources/thirdedition/PS_Hundred-Fist_Frenzy.png"; sourceTree = "<group>"; };
+		AE50B58C1635060F00B98559 /* PS_Ebb_or_Flow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Ebb_or_Flow.png; path = Resources/thirdedition/PS_Ebb_or_Flow.png; sourceTree = "<group>"; };
+		AE50B58D1635060F00B98559 /* PS_Degenerate_Trasher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Degenerate_Trasher.png; path = Resources/thirdedition/PS_Degenerate_Trasher.png; sourceTree = "<group>"; };
+		AE50B58E1635060F00B98559 /* PS_Color_Panic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Color_Panic.png; path = Resources/thirdedition/PS_Color_Panic.png; sourceTree = "<group>"; };
+		AE50B58F1635060F00B98559 /* PS_Chips_for_Free.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Chips_for_Free.png; path = Resources/thirdedition/PS_Chips_for_Free.png; sourceTree = "<group>"; };
+		AE50B5901635060F00B98559 /* PS_Button_Mashing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Button_Mashing.png; path = Resources/thirdedition/PS_Button_Mashing.png; sourceTree = "<group>"; };
+		AE50B5911635060F00B98559 /* PS_Blues_are_Good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Blues_are_Good.png; path = Resources/thirdedition/PS_Blues_are_Good.png; sourceTree = "<group>"; };
+		AE50B5921635060F00B98559 /* PS_Bang_then_Fizzle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Bang_then_Fizzle.png; path = Resources/thirdedition/PS_Bang_then_Fizzle.png; sourceTree = "<group>"; };
+		AE50B5931635060F00B98559 /* PS_Axe_Kick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Axe_Kick.png; path = Resources/thirdedition/PS_Axe_Kick.png; sourceTree = "<group>"; };
+		AE50B5941635060F00B98559 /* PS_Combo_Practice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Combo_Practice.png; path = Resources/thirdedition/PS_Combo_Practice.png; sourceTree = "<group>"; };
+		AE5761971637B260000206FB /* PS_Maximum_Anarchy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Maximum_Anarchy.png; path = Resources/thirdedition/PS_Maximum_Anarchy.png; sourceTree = "<group>"; };
+		AE5761981637B260000206FB /* PS_Crash_Bomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Crash_Bomb.png; path = Resources/thirdedition/PS_Crash_Bomb.png; sourceTree = "<group>"; };
+		AE5761991637B260000206FB /* PS_Crash_Potato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Crash_Potato.png; path = Resources/thirdedition/PS_Crash_Potato.png; sourceTree = "<group>"; };
+		AE57619A1637B260000206FB /* PS_Shadowswarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Shadowswarm.png; path = Resources/thirdedition/PS_Shadowswarm.png; sourceTree = "<group>"; };
+		AE57619B1637B260000206FB /* PS_Burnbarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Burnbarrow.png; path = Resources/thirdedition/PS_Burnbarrow.png; sourceTree = "<group>"; };
+		AE57619C1637B260000206FB /* PS_Shadow_Plague.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Shadow_Plague.png; path = Resources/thirdedition/PS_Shadow_Plague.png; sourceTree = "<group>"; };
+		AE57619D1637B260000206FB /* PS_Mistress's_Command.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PS_Mistress's_Command.png"; path = "Resources/thirdedition/PS_Mistress's_Command.png"; sourceTree = "<group>"; };
+		AE57619E1637B260000206FB /* PS_Always_in_Control.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Always_in_Control.png; path = Resources/thirdedition/PS_Always_in_Control.png; sourceTree = "<group>"; };
+		AE57619F1637B260000206FB /* PS_Pleasure_&_Pain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PS_Pleasure_&_Pain.png"; path = "Resources/thirdedition/PS_Pleasure_&_Pain.png"; sourceTree = "<group>"; };
+		AE5761A01637B260000206FB /* PS_Rocket_Punch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Rocket_Punch.png; path = Resources/thirdedition/PS_Rocket_Punch.png; sourceTree = "<group>"; };
+		AE5761A11637B260000206FB /* PS_Cog_Engine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Cog_Engine.png; path = Resources/thirdedition/PS_Cog_Engine.png; sourceTree = "<group>"; };
+		AE5761A21637B260000206FB /* PS_Upgrade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Upgrade.png; path = Resources/thirdedition/PS_Upgrade.png; sourceTree = "<group>"; };
+		AE5761A31637B260000206FB /* PS_Wartime_Tactics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Wartime_Tactics.png; path = Resources/thirdedition/PS_Wartime_Tactics.png; sourceTree = "<group>"; };
+		AE5761A41637B260000206FB /* PS_Double_Slash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Double_Slash.png; path = Resources/thirdedition/PS_Double_Slash.png; sourceTree = "<group>"; };
+		AE5761A51637B260000206FB /* PS_Riposte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Riposte.png; path = Resources/thirdedition/PS_Riposte.png; sourceTree = "<group>"; };
+		AE5761A61637B260000206FB /* PS_Surgical_Strike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Surgical_Strike.png; path = Resources/thirdedition/PS_Surgical_Strike.png; sourceTree = "<group>"; };
+		AE5761A71637B260000206FB /* PS_Acrobatics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Acrobatics.png; path = Resources/thirdedition/PS_Acrobatics.png; sourceTree = "<group>"; };
+		AE5761A81637B260000206FB /* PS_Stunlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Stunlock.png; path = Resources/thirdedition/PS_Stunlock.png; sourceTree = "<group>"; };
+		AE5761A91637B260000206FB /* PS_Saving_Grace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Saving_Grace.png; path = Resources/thirdedition/PS_Saving_Grace.png; sourceTree = "<group>"; };
+		AE5761AA1637B260000206FB /* PS_Healing_Touch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Healing_Touch.png; path = Resources/thirdedition/PS_Healing_Touch.png; sourceTree = "<group>"; };
+		AE5761AB1637B260000206FB /* PS_Radiant_Healing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Radiant_Healing.png; path = Resources/thirdedition/PS_Radiant_Healing.png; sourceTree = "<group>"; };
+		AE5761AC1637B260000206FB /* PS_Deathstrike_Dragon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Deathstrike_Dragon.png; path = Resources/thirdedition/PS_Deathstrike_Dragon.png; sourceTree = "<group>"; };
+		AE5761AD1637B260000206FB /* PS_Into_Oblivion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Into_Oblivion.png; path = Resources/thirdedition/PS_Into_Oblivion.png; sourceTree = "<group>"; };
+		AE5761AE1637B260000206FB /* PS_Bonecracker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Bonecracker.png; path = Resources/thirdedition/PS_Bonecracker.png; sourceTree = "<group>"; };
+		AE5761AF1637B260000206FB /* PS_Beast_Unleashed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Beast_Unleashed.png; path = Resources/thirdedition/PS_Beast_Unleashed.png; sourceTree = "<group>"; };
+		AE5761B01637B260000206FB /* PS_More_Shiny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_More_Shiny.png; path = Resources/thirdedition/PS_More_Shiny.png; sourceTree = "<group>"; };
+		AE5761B11637B260000206FB /* PS_Giant_Growth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Giant_Growth.png; path = Resources/thirdedition/PS_Giant_Growth.png; sourceTree = "<group>"; };
+		AE5761B21637B260000206FB /* PS_Two_Truths.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Two_Truths.png; path = Resources/thirdedition/PS_Two_Truths.png; sourceTree = "<group>"; };
+		AE5761B31637B260000206FB /* PS_Patriot_Mirror.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Patriot_Mirror.png; path = Resources/thirdedition/PS_Patriot_Mirror.png; sourceTree = "<group>"; };
+		AE5761B41637B260000206FB /* PS_Flagstone_Tax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PS_Flagstone_Tax.png; path = Resources/thirdedition/PS_Flagstone_Tax.png; sourceTree = "<group>"; };
+		AE5761D31637B8F6000206FB /* PuzzleChipDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzleChipDetailTableViewCell.h; sourceTree = "<group>"; };
+		AE5761D41637B8F6000206FB /* PuzzleChipDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzleChipDetailTableViewCell.m; sourceTree = "<group>"; };
+		AE5761D51637B8F7000206FB /* PuzzleChipDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PuzzleChipDetailTableViewCell.xib; sourceTree = "<group>"; };
+		AE5761D81637BD63000206FB /* SinglePuzzleChipDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglePuzzleChipDetailViewController.h; sourceTree = "<group>"; };
+		AE5761D91637BD63000206FB /* SinglePuzzleChipDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglePuzzleChipDetailViewController.m; sourceTree = "<group>"; };
+		AE5761DA1637BD64000206FB /* SinglePuzzleChipDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SinglePuzzleChipDetailViewController.xib; sourceTree = "<group>"; };
+		AEAD9BDA163885290094DD59 /* ps_triangle_web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ps_triangle_web.png; path = Resources/ps_triangle_web.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE50B3C016327BCC00B98559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE50B3C816327BCC00B98559 /* UIKit.framework in Frameworks */,
+				AE50B3CA16327BCC00B98559 /* Foundation.framework in Frameworks */,
+				AE50B3CC16327BCC00B98559 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE50B3EE16327BCC00B98559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE50B3F416327BCC00B98559 /* SenTestingKit.framework in Frameworks */,
+				AE50B3F516327BCC00B98559 /* UIKit.framework in Frameworks */,
+				AE50B3F616327BCC00B98559 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE29C02B16364AC80032B203 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AE50B49F16336EF400B98559 /* CharacterChipTableViewCell.h */,
+				AE50B4A016336EF400B98559 /* CharacterChipTableViewCell.m */,
+				AE50B4A116336EF400B98559 /* CharacterChipTableViewCell.xib */,
+				AE50B55A1633915B00B98559 /* PuzzleChipTableViewCell.h */,
+				AE50B55B1633915B00B98559 /* PuzzleChipTableViewCell.m */,
+				AE50B55C1633915B00B98559 /* PuzzleChipTableViewCell.xib */,
+				AE29C02C16364C650032B203 /* CharacterDetailTableViewCell.h */,
+				AE29C02D16364C650032B203 /* CharacterDetailTableViewCell.m */,
+				AE29C02E16364C650032B203 /* CharacterDetailTableViewCell.xib */,
+				AE5761D31637B8F6000206FB /* PuzzleChipDetailTableViewCell.h */,
+				AE5761D41637B8F6000206FB /* PuzzleChipDetailTableViewCell.m */,
+				AE5761D51637B8F7000206FB /* PuzzleChipDetailTableViewCell.xib */,
+				8EDA0F971648E3B500DFA321 /* ConfigureTableViewCell.h */,
+				8EDA0F981648E3B600DFA321 /* ConfigureTableViewCell.m */,
+				8EDA0F991648E3B600DFA321 /* ConfigureTableViewCell.xib */,
+				8EEF2518165FED390096F642 /* ConfigureCharacterTableViewCell.h */,
+				8EEF2519165FED390096F642 /* ConfigureCharacterTableViewCell.m */,
+				8EEF251A165FED390096F642 /* ConfigureCharacterTableViewCell.xib */,
+			);
+			name = "Table Cells";
+			sourceTree = "<group>";
+		};
+		AE29C036163661CB0032B203 /* Table Headers */ = {
+			isa = PBXGroup;
+			children = (
+				AE50B49A16336A1800B98559 /* RecapHeaderViewController.h */,
+				AE50B49B16336A1800B98559 /* RecapHeaderViewController.m */,
+				AE50B49C16336A1800B98559 /* RecapHeaderViewController.xib */,
+				AE29C03116365EB40032B203 /* CharacterDetailHeaderViewController.h */,
+				AE29C03216365EB40032B203 /* CharacterDetailHeaderViewController.m */,
+				AE29C03316365EB50032B203 /* CharacterDetailHeaderViewController.xib */,
+			);
+			name = "Table Headers";
+			sourceTree = "<group>";
+		};
+		AE29C037163662000032B203 /* Main GUIs */ = {
+			isa = PBXGroup;
+			children = (
+				AE29C026163645120032B203 /* EncyclopediaDetailViewController.h */,
+				AE29C027163645120032B203 /* EncyclopediaDetailViewController.m */,
+				AE29C028163645120032B203 /* EncyclopediaDetailViewController.xib */,
+				AE29C0201636374D0032B203 /* EncyclopediaViewController.h */,
+				AE29C0211636374D0032B203 /* EncyclopediaViewController.m */,
+				AE29C0221636374D0032B203 /* EncyclopediaViewController.xib */,
+				AE50B4141632999F00B98559 /* MainMenuViewController.h */,
+				AE50B4151632999F00B98559 /* MainMenuViewController.m */,
+				AE50B4161632999F00B98559 /* MainMenuViewController.xib */,
+				AE50B4951633116200B98559 /* RandomizerRecapViewController.h */,
+				AE50B4961633116200B98559 /* RandomizerRecapViewController.m */,
+				AE50B4971633116200B98559 /* RandomizerRecapViewController.xib */,
+				AE29C038163664290032B203 /* SingleCharacterDetailViewController.h */,
+				AE29C039163664290032B203 /* SingleCharacterDetailViewController.m */,
+				AE29C03A163664290032B203 /* SingleCharacterDetailViewController.xib */,
+				AE5761D81637BD63000206FB /* SinglePuzzleChipDetailViewController.h */,
+				AE5761D91637BD63000206FB /* SinglePuzzleChipDetailViewController.m */,
+				AE5761DA1637BD64000206FB /* SinglePuzzleChipDetailViewController.xib */,
+				8EDA0F911647543300DFA321 /* ConfigureRandomizerViewController.h */,
+				8EDA0F921647543300DFA321 /* ConfigureRandomizerViewController.m */,
+				8EDA0F931647543300DFA321 /* ConfigureRandomizerViewController.xib */,
+				8E514264166085CE00A0D76D /* ConfigureViewController.h */,
+				8E514265166085CE00A0D76D /* ConfigureViewController.m */,
+				8E514266166085CE00A0D76D /* ConfigureViewController.xib */,
+				8E688BF416AE254E00BB41CB /* AboutScreenViewController.h */,
+				8E688BF516AE254F00BB41CB /* AboutScreenViewController.m */,
+				8E688BF616AE254F00BB41CB /* AboutScreenViewController.xib */,
+			);
+			name = "Main GUIs";
+			sourceTree = "<group>";
+		};
+		AE50B3B816327BCC00B98559 = {
+			isa = PBXGroup;
+			children = (
+				AE50B3CD16327BCC00B98559 /* Puzzle Strike Randomizer */,
+				AE50B3F916327BCC00B98559 /* Puzzle Strike RandomizerTests */,
+				AE50B3C616327BCC00B98559 /* Frameworks */,
+				AE50B3C416327BCC00B98559 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE50B3C416327BCC00B98559 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE50B3C316327BCC00B98559 /* PSCC.app */,
+				AE50B3F216327BCC00B98559 /* Puzzle Strike RandomizerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE50B3C616327BCC00B98559 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE50B3C716327BCC00B98559 /* UIKit.framework */,
+				AE50B3C916327BCC00B98559 /* Foundation.framework */,
+				AE50B3CB16327BCC00B98559 /* CoreGraphics.framework */,
+				AE50B3F316327BCC00B98559 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE50B3CD16327BCC00B98559 /* Puzzle Strike Randomizer */ = {
+			isa = PBXGroup;
+			children = (
+				AE50B4AA1633863900B98559 /* Resources */,
+				AE50B4131632996D00B98559 /* GUI */,
+				AE50B40E1632848F00B98559 /* Chip Plists */,
+				AE50B40A16327C8300B98559 /* Data */,
+				AE50B3D616327BCC00B98559 /* AppDelegate.h */,
+				AE50B3D716327BCC00B98559 /* AppDelegate.m */,
+				AE50B3CE16327BCC00B98559 /* Supporting Files */,
+			);
+			path = "Puzzle Strike Randomizer";
+			sourceTree = "<group>";
+		};
+		AE50B3CE16327BCC00B98559 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE50B3CF16327BCC00B98559 /* Puzzle Strike Randomizer-Info.plist */,
+				AE50B3D016327BCC00B98559 /* InfoPlist.strings */,
+				AE50B3D316327BCC00B98559 /* main.m */,
+				AE50B3D516327BCC00B98559 /* Puzzle Strike Randomizer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE50B3F916327BCC00B98559 /* Puzzle Strike RandomizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE50B3FF16327BCC00B98559 /* Puzzle_Strike_RandomizerTests.h */,
+				AE50B40016327BCC00B98559 /* Puzzle_Strike_RandomizerTests.m */,
+				AE50B3FA16327BCC00B98559 /* Supporting Files */,
+			);
+			path = "Puzzle Strike RandomizerTests";
+			sourceTree = "<group>";
+		};
+		AE50B3FA16327BCC00B98559 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE50B3FB16327BCC00B98559 /* Puzzle Strike RandomizerTests-Info.plist */,
+				AE50B3FC16327BCC00B98559 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE50B40A16327C8300B98559 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AE50B40B16327D0E00B98559 /* RandomChipSelector.h */,
+				AE50B40C16327D0E00B98559 /* RandomChipSelector.m */,
+				8EA9F971164B798B00092C42 /* RandomizerSettingsManager.h */,
+				8EA9F972164B798B00092C42 /* RandomizerSettingsManager.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		AE50B40E1632848F00B98559 /* Chip Plists */ = {
+			isa = PBXGroup;
+			children = (
+				AE50B40F163284B800B98559 /* CharacterChips.plist */,
+				AE50B41116328FDA00B98559 /* PuzzleChips.plist */,
+			);
+			name = "Chip Plists";
+			sourceTree = "<group>";
+		};
+		AE50B4131632996D00B98559 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				AE29C037163662000032B203 /* Main GUIs */,
+				AE29C036163661CB0032B203 /* Table Headers */,
+				AE29C02B16364AC80032B203 /* Table Cells */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		AE50B4AA1633863900B98559 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE50B55F1633B2D400B98559 /* Extra Assets */,
+				AE50B54516338A4C00B98559 /* Character Cards */,
+				AE50B5081633896F00B98559 /* Character Ability Chips */,
+				AE50B4D91633893A00B98559 /* Puzzle Chips */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AE50B4D91633893A00B98559 /* Puzzle Chips */ = {
+			isa = PBXGroup;
+			children = (
+				AE50B57B163505ED00B98559 /* Shadows */,
+				AE50B4F01633896600B98559 /* PS_Combos_Are_Hard.png */,
+				AE50B4EF1633896600B98559 /* PS_Draw_Three.png */,
+				AE50B4EE1633896600B98559 /* PS_Gem_Essence.png */,
+				AE50B4ED1633896600B98559 /* PS_Gems_to_Gemonade.png */,
+				AE50B4EA1633896600B98559 /* PS_Iron_Defense.png */,
+				AE50B4EC1633896600B98559 /* PS_It's_a_Trap.png */,
+				AE50B4EB1633896600B98559 /* PS_It's_Combo_Time.png */,
+				AE50B4E91633896600B98559 /* PS_Knockdown.png */,
+				AE50B4E81633896600B98559 /* PS_Master_Puzzler.png */,
+				AE50B4E71633896600B98559 /* PS_Mix-Master.png */,
+				AE50B4E51633896600B98559 /* PS_One-Two_Punch.png */,
+				AE50B4E61633896600B98559 /* PS_One_of_Each.png */,
+				AE50B4E31633896600B98559 /* PS_Really_Annoying.png */,
+				AE50B4E41633896600B98559 /* PS_Recklessness.png */,
+				AE50B4E21633896600B98559 /* PS_Risky_Move.png */,
+				AE50B4E11633896600B98559 /* PS_Roundhouse.png */,
+				AE50B4E01633896600B98559 /* PS_Sale_Prices.png */,
+				AE50B4DF1633896600B98559 /* PS_Secret_Move.png */,
+				AE50B4DD1633896600B98559 /* PS_Self-Improvement.png */,
+				AE50B4DE1633896600B98559 /* PS_Sneak_Attack.png */,
+				AE50B4DC1633896600B98559 /* PS_Stolen_Purples.png */,
+				AE50B4DB1633896600B98559 /* PS_Thinking_Ahead.png */,
+				AE50B4DA1633896600B98559 /* PS_Training_Day.png */,
+			);
+			name = "Puzzle Chips";
+			sourceTree = "<group>";
+		};
+		AE50B5081633896F00B98559 /* Character Ability Chips */ = {
+			isa = PBXGroup;
+			children = (
+				AE5761961637B246000206FB /* Shadows */,
+				AE50B50916338A2E00B98559 /* PS_Protective_Ward.png */,
+				AE50B50A16338A2E00B98559 /* PS_Bubble_Shield.png */,
+				AE50B50B16338A2E00B98559 /* PS_Hex_of_Murkwood.png */,
+				AE50B50C16338A2E00B98559 /* PS_It's_Time_for_the_Past.png */,
+				AE50B50D16338A2E00B98559 /* PS_Future_Sight.png */,
+				AE50B50E16338A2E00B98559 /* PS_Research_&_Development.png */,
+				AE50B50F16338A2E00B98559 /* PS_Troublesome_Rhetoric.png */,
+				AE50B51016338A2E00B98559 /* PS_No_More_Lies.png */,
+				AE50B51116338A2E00B98559 /* PS_Pilebunker.png */,
+				AE50B51216338A2E00B98559 /* PS_Double-take.png */,
+				AE50B51316338A2E00B98559 /* PS_Bag_of_Tricks.png */,
+				AE50B51416338A2E00B98559 /* PS_Speed_of_the_Fox.png */,
+				AE50B51516338A2E00B98559 /* PS_Unstable_Power.png */,
+				AE50B51616338A2E00B98559 /* PS_Burning_Vigor.png */,
+				AE50B51716338A2E00B98559 /* PS_Playing_with_Fire.png */,
+				AE50B51816338A2E00B98559 /* PS_Living_on_the_Edge.png */,
+				AE50B51916338A2E00B98559 /* PS_Panda's_Bargain.png */,
+				AE50B51A16338A2E00B98559 /* PS_Jackpot.png */,
+				AE50B51B16338A2E00B98559 /* PS_Creative_Thoughts.png */,
+				AE50B51C16338A2E00B98559 /* PS_Chromatic_Orb.png */,
+				AE50B51D16338A2E00B98559 /* PS_Three_Colors.png */,
+				AE50B51E16338A2E00B98559 /* PS_Strength_of_Earth.png */,
+				AE50B51F16338A2E00B98559 /* PS_Big_Rocks.png */,
+				AE50B52016338A2E00B98559 /* PS_Stone_Wall.png */,
+				AE50B52116338A2E00B98559 /* PS_Purge_Bad_Habits.png */,
+				AE50B52216338A2E00B98559 /* PS_Rigorous_Training.png */,
+				AE50B52316338A2E00B98559 /* PS_Dragon_Form.png */,
+				AE50B52416338A2E00B98559 /* PS_Versatile_Style.png */,
+				AE50B52516338A2E00B98559 /* PS_Martial_Mastery.png */,
+				AE50B52616338A2E00B98559 /* PS_Reversal.png */,
+			);
+			name = "Character Ability Chips";
+			sourceTree = "<group>";
+		};
+		AE50B54516338A4C00B98559 /* Character Cards */ = {
+			isa = PBXGroup;
+			children = (
+				AE50B5661634ED4800B98559 /* Shadows */,
+				AE50B54616338A6500B98559 /* CCArgagarg.png */,
+				AE50B54716338A6500B98559 /* CCGeiger.png */,
+				AE50B54816338A6500B98559 /* CCDeGrey.png */,
+				AE50B54916338A6500B98559 /* CCSetsuki.png */,
+				AE50B54A16338A6500B98559 /* CCJaina.png */,
+				AE50B54B16338A6500B98559 /* CCLum.png */,
+				AE50B54C16338A6500B98559 /* CCValerie.png */,
+				AE50B54D16338A6500B98559 /* CCRook.png */,
+				AE50B54E16338A6500B98559 /* CCMidori.png */,
+				AE50B54F16338A6500B98559 /* CCGrave.png */,
+			);
+			name = "Character Cards";
+			sourceTree = "<group>";
+		};
+		AE50B55F1633B2D400B98559 /* Extra Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8E3D5DDF1713D45400952A63 /* 96-book.png */,
+				8E3D5DDD1713D3AA00952A63 /* 123-id-card.png */,
+				8E3D5DDB1713D27700952A63 /* 157-wrench.png */,
+				8E3D5DD91713D1B200952A63 /* 198-card-spades.png */,
+				8E3D5DD61713CE7100952A63 /* psr_dice.png */,
+				8E3D5D231703EB2800952A63 /* psricon500x500.png */,
+				8E3D5D1B1703E95600952A63 /* psr144.png */,
+				8E3D5D1C1703E95600952A63 /* psr114.png */,
+				8E3D5D1D1703E95600952A63 /* psr57.png */,
+				8E3D5D1E1703E95600952A63 /* psr72.png */,
+				8EA3615216A3BF7100B38058 /* Icon-72.png */,
+				8EA3615016A3BF7100B38058 /* Icon-72@2x.png */,
+				8EA3614F16A3BF7100B38058 /* Icon.png */,
+				8EA3615116A3BF7100B38058 /* Icon@2x.png */,
+				AEAD9BDA163885290094DD59 /* ps_triangle_web.png */,
+				AE50B5601633B2E900B98559 /* PSLogoHigh.png */,
+				AE50B5621634894400B98559 /* PSRAppIcon.png */,
+				AE50B56416348B0500B98559 /* removeContact.png */,
+			);
+			name = "Extra Assets";
+			sourceTree = "<group>";
+		};
+		AE50B5661634ED4800B98559 /* Shadows */ = {
+			isa = PBXGroup;
+			children = (
+				AE50B5671634ED5D00B98559 /* CCZane.png */,
+				AE50B5681634ED5D00B98559 /* CCGwen.png */,
+				AE50B5691634ED5D00B98559 /* CBPersephone.png */,
+				AE50B56A1634ED5D00B98559 /* CCBBB.png */,
+				AE50B56B1634ED5D00B98559 /* CCOnimaru.png */,
+				AE50B56C1634ED5D00B98559 /* CCVendetta.png */,
+				AE50B56D1634ED5D00B98559 /* CCGloria.png */,
+				AE50B56E1634ED5D00B98559 /* CBMenelker.png */,
+				AE50B56F1634ED5D00B98559 /* CCTroq.png */,
+				AE50B5701634ED5D00B98559 /* CCQuince.png */,
+			);
+			name = Shadows;
+			sourceTree = "<group>";
+		};
+		AE50B57B163505ED00B98559 /* Shadows */ = {
+			isa = PBXGroup;
+			children = (
+				AE50B57C1635060F00B98559 /* PS_X-Copy.png */,
+				AE50B57D1635060F00B98559 /* PS_The_Hammer.png */,
+				AE50B57E1635060F00B98559 /* PS_Signature_Move.png */,
+				AE50B57F1635060F00B98559 /* PS_Safe_Keeping.png */,
+				AE50B5801635060F00B98559 /* PS_Risk_to_Riskonade.png */,
+				AE50B5811635060F00B98559 /* PS_Repeated_Jabs.png */,
+				AE50B5821635060F00B98559 /* PS_Punch_Punch_Kick.png */,
+				AE50B5831635060F00B98559 /* PS_Pick_Your_Poison.png */,
+				AE50B5841635060F00B98559 /* PS_Ouch!.png */,
+				AE50B5851635060F00B98559 /* PS_Option_Select.png */,
+				AE50B5861635060F00B98559 /* PS_One_True_Style.png */,
+				AE50B5871635060F00B98559 /* PS_Now_or_Later.png */,
+				AE50B5881635060F00B98559 /* PS_Money_for_Nothing.png */,
+				AE50B5891635060F00B98559 /* PS_Just_a_Scratch.png */,
+				AE50B58A1635060F00B98559 /* PS_Improvisation.png */,
+				AE50B58B1635060F00B98559 /* PS_Hundred-Fist_Frenzy.png */,
+				AE50B58C1635060F00B98559 /* PS_Ebb_or_Flow.png */,
+				AE50B58D1635060F00B98559 /* PS_Degenerate_Trasher.png */,
+				AE50B58E1635060F00B98559 /* PS_Color_Panic.png */,
+				AE50B58F1635060F00B98559 /* PS_Chips_for_Free.png */,
+				AE50B5901635060F00B98559 /* PS_Button_Mashing.png */,
+				AE50B5911635060F00B98559 /* PS_Blues_are_Good.png */,
+				AE50B5921635060F00B98559 /* PS_Bang_then_Fizzle.png */,
+				AE50B5931635060F00B98559 /* PS_Axe_Kick.png */,
+				AE50B5941635060F00B98559 /* PS_Combo_Practice.png */,
+			);
+			name = Shadows;
+			sourceTree = "<group>";
+		};
+		AE5761961637B246000206FB /* Shadows */ = {
+			isa = PBXGroup;
+			children = (
+				AE5761971637B260000206FB /* PS_Maximum_Anarchy.png */,
+				AE5761981637B260000206FB /* PS_Crash_Bomb.png */,
+				AE5761991637B260000206FB /* PS_Crash_Potato.png */,
+				AE57619A1637B260000206FB /* PS_Shadowswarm.png */,
+				AE57619B1637B260000206FB /* PS_Burnbarrow.png */,
+				AE57619C1637B260000206FB /* PS_Shadow_Plague.png */,
+				AE57619D1637B260000206FB /* PS_Mistress's_Command.png */,
+				AE57619E1637B260000206FB /* PS_Always_in_Control.png */,
+				AE57619F1637B260000206FB /* PS_Pleasure_&_Pain.png */,
+				AE5761A01637B260000206FB /* PS_Rocket_Punch.png */,
+				AE5761A11637B260000206FB /* PS_Cog_Engine.png */,
+				AE5761A21637B260000206FB /* PS_Upgrade.png */,
+				AE5761A31637B260000206FB /* PS_Wartime_Tactics.png */,
+				AE5761A41637B260000206FB /* PS_Double_Slash.png */,
+				AE5761A51637B260000206FB /* PS_Riposte.png */,
+				AE5761A61637B260000206FB /* PS_Surgical_Strike.png */,
+				AE5761A71637B260000206FB /* PS_Acrobatics.png */,
+				AE5761A81637B260000206FB /* PS_Stunlock.png */,
+				AE5761A91637B260000206FB /* PS_Saving_Grace.png */,
+				AE5761AA1637B260000206FB /* PS_Healing_Touch.png */,
+				AE5761AB1637B260000206FB /* PS_Radiant_Healing.png */,
+				AE5761AC1637B260000206FB /* PS_Deathstrike_Dragon.png */,
+				AE5761AD1637B260000206FB /* PS_Into_Oblivion.png */,
+				AE5761AE1637B260000206FB /* PS_Bonecracker.png */,
+				AE5761AF1637B260000206FB /* PS_Beast_Unleashed.png */,
+				AE5761B01637B260000206FB /* PS_More_Shiny.png */,
+				AE5761B11637B260000206FB /* PS_Giant_Growth.png */,
+				AE5761B21637B260000206FB /* PS_Two_Truths.png */,
+				AE5761B31637B260000206FB /* PS_Patriot_Mirror.png */,
+				AE5761B41637B260000206FB /* PS_Flagstone_Tax.png */,
+			);
+			name = Shadows;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE50B3C216327BCC00B98559 /* Puzzle Strike Randomizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE50B40416327BCC00B98559 /* Build configuration list for PBXNativeTarget "Puzzle Strike Randomizer" */;
+			buildPhases = (
+				AE50B3BF16327BCC00B98559 /* Sources */,
+				AE50B3C016327BCC00B98559 /* Frameworks */,
+				AE50B3C116327BCC00B98559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Puzzle Strike Randomizer";
+			productName = "Puzzle Strike Randomizer";
+			productReference = AE50B3C316327BCC00B98559 /* PSCC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE50B3F116327BCC00B98559 /* Puzzle Strike RandomizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE50B40716327BCD00B98559 /* Build configuration list for PBXNativeTarget "Puzzle Strike RandomizerTests" */;
+			buildPhases = (
+				AE50B3ED16327BCC00B98559 /* Sources */,
+				AE50B3EE16327BCC00B98559 /* Frameworks */,
+				AE50B3EF16327BCC00B98559 /* Resources */,
+				AE50B3F016327BCC00B98559 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE50B3F816327BCC00B98559 /* PBXTargetDependency */,
+			);
+			name = "Puzzle Strike RandomizerTests";
+			productName = "Puzzle Strike RandomizerTests";
+			productReference = AE50B3F216327BCC00B98559 /* Puzzle Strike RandomizerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE50B3BA16327BCC00B98559 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Playforge LLC";
+			};
+			buildConfigurationList = AE50B3BD16327BCC00B98559 /* Build configuration list for PBXProject "Puzzle Strike Randomizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE50B3B816327BCC00B98559;
+			productRefGroup = AE50B3C416327BCC00B98559 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE50B3C216327BCC00B98559 /* Puzzle Strike Randomizer */,
+				AE50B3F116327BCC00B98559 /* Puzzle Strike RandomizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE50B3C116327BCC00B98559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE50B3D216327BCC00B98559 /* InfoPlist.strings in Resources */,
+				AE50B410163284B800B98559 /* CharacterChips.plist in Resources */,
+				AE50B41216328FDA00B98559 /* PuzzleChips.plist in Resources */,
+				AE50B4181632999F00B98559 /* MainMenuViewController.xib in Resources */,
+				AE50B4991633116200B98559 /* RandomizerRecapViewController.xib in Resources */,
+				AE50B49E16336A1800B98559 /* RecapHeaderViewController.xib in Resources */,
+				AE50B4A316336EF400B98559 /* CharacterChipTableViewCell.xib in Resources */,
+				AE50B4F11633896600B98559 /* PS_Training_Day.png in Resources */,
+				AE50B4F21633896600B98559 /* PS_Thinking_Ahead.png in Resources */,
+				AE50B4F31633896600B98559 /* PS_Stolen_Purples.png in Resources */,
+				AE50B4F41633896600B98559 /* PS_Self-Improvement.png in Resources */,
+				AE50B4F51633896600B98559 /* PS_Sneak_Attack.png in Resources */,
+				AE50B4F61633896600B98559 /* PS_Secret_Move.png in Resources */,
+				AE50B4F71633896600B98559 /* PS_Sale_Prices.png in Resources */,
+				AE50B4F81633896600B98559 /* PS_Roundhouse.png in Resources */,
+				AE50B4F91633896600B98559 /* PS_Risky_Move.png in Resources */,
+				AE50B4FA1633896600B98559 /* PS_Really_Annoying.png in Resources */,
+				AE50B4FB1633896600B98559 /* PS_Recklessness.png in Resources */,
+				AE50B4FC1633896600B98559 /* PS_One-Two_Punch.png in Resources */,
+				AE50B4FD1633896600B98559 /* PS_One_of_Each.png in Resources */,
+				AE50B4FE1633896600B98559 /* PS_Mix-Master.png in Resources */,
+				AE50B4FF1633896600B98559 /* PS_Master_Puzzler.png in Resources */,
+				AE50B5001633896600B98559 /* PS_Knockdown.png in Resources */,
+				AE50B5011633896600B98559 /* PS_Iron_Defense.png in Resources */,
+				AE50B5021633896600B98559 /* PS_It's_Combo_Time.png in Resources */,
+				AE50B5031633896600B98559 /* PS_It's_a_Trap.png in Resources */,
+				AE50B5041633896600B98559 /* PS_Gems_to_Gemonade.png in Resources */,
+				AE50B5051633896600B98559 /* PS_Gem_Essence.png in Resources */,
+				AE50B5061633896600B98559 /* PS_Draw_Three.png in Resources */,
+				AE50B5071633896600B98559 /* PS_Combos_Are_Hard.png in Resources */,
+				AE50B52716338A2E00B98559 /* PS_Protective_Ward.png in Resources */,
+				AE50B52816338A2E00B98559 /* PS_Bubble_Shield.png in Resources */,
+				AE50B52916338A2E00B98559 /* PS_Hex_of_Murkwood.png in Resources */,
+				AE50B52A16338A2E00B98559 /* PS_It's_Time_for_the_Past.png in Resources */,
+				AE50B52B16338A2E00B98559 /* PS_Future_Sight.png in Resources */,
+				AE50B52C16338A2E00B98559 /* PS_Research_&_Development.png in Resources */,
+				AE50B52D16338A2E00B98559 /* PS_Troublesome_Rhetoric.png in Resources */,
+				AE50B52E16338A2E00B98559 /* PS_No_More_Lies.png in Resources */,
+				AE50B52F16338A2E00B98559 /* PS_Pilebunker.png in Resources */,
+				AE50B53016338A2E00B98559 /* PS_Double-take.png in Resources */,
+				AE50B53116338A2E00B98559 /* PS_Bag_of_Tricks.png in Resources */,
+				AE50B53216338A2E00B98559 /* PS_Speed_of_the_Fox.png in Resources */,
+				AE50B53316338A2E00B98559 /* PS_Unstable_Power.png in Resources */,
+				AE50B53416338A2E00B98559 /* PS_Burning_Vigor.png in Resources */,
+				AE50B53516338A2E00B98559 /* PS_Playing_with_Fire.png in Resources */,
+				AE50B53616338A2E00B98559 /* PS_Living_on_the_Edge.png in Resources */,
+				AE50B53716338A2E00B98559 /* PS_Panda's_Bargain.png in Resources */,
+				AE50B53816338A2E00B98559 /* PS_Jackpot.png in Resources */,
+				AE50B53916338A2E00B98559 /* PS_Creative_Thoughts.png in Resources */,
+				AE50B53A16338A2E00B98559 /* PS_Chromatic_Orb.png in Resources */,
+				AE50B53B16338A2E00B98559 /* PS_Three_Colors.png in Resources */,
+				AE50B53C16338A2E00B98559 /* PS_Strength_of_Earth.png in Resources */,
+				AE50B53D16338A2E00B98559 /* PS_Big_Rocks.png in Resources */,
+				AE50B53E16338A2E00B98559 /* PS_Stone_Wall.png in Resources */,
+				AE50B53F16338A2E00B98559 /* PS_Purge_Bad_Habits.png in Resources */,
+				AE50B54016338A2E00B98559 /* PS_Rigorous_Training.png in Resources */,
+				AE50B54116338A2E00B98559 /* PS_Dragon_Form.png in Resources */,
+				AE50B54216338A2E00B98559 /* PS_Versatile_Style.png in Resources */,
+				AE50B54316338A2E00B98559 /* PS_Martial_Mastery.png in Resources */,
+				AE50B54416338A2E00B98559 /* PS_Reversal.png in Resources */,
+				AE50B55016338A6500B98559 /* CCArgagarg.png in Resources */,
+				AE50B55116338A6500B98559 /* CCGeiger.png in Resources */,
+				AE50B55216338A6500B98559 /* CCDeGrey.png in Resources */,
+				AE50B55316338A6500B98559 /* CCSetsuki.png in Resources */,
+				AE50B55416338A6500B98559 /* CCJaina.png in Resources */,
+				AE50B55516338A6500B98559 /* CCLum.png in Resources */,
+				AE50B55616338A6500B98559 /* CCValerie.png in Resources */,
+				AE50B55716338A6500B98559 /* CCRook.png in Resources */,
+				AE50B55816338A6500B98559 /* CCMidori.png in Resources */,
+				AE50B55916338A6500B98559 /* CCGrave.png in Resources */,
+				AE50B55E1633915C00B98559 /* PuzzleChipTableViewCell.xib in Resources */,
+				AE50B5611633B2E900B98559 /* PSLogoHigh.png in Resources */,
+				AE50B5631634894400B98559 /* PSRAppIcon.png in Resources */,
+				AE50B56516348B0500B98559 /* removeContact.png in Resources */,
+				AE50B5711634ED5D00B98559 /* CCZane.png in Resources */,
+				AE50B5721634ED5D00B98559 /* CCGwen.png in Resources */,
+				AE50B5731634ED5D00B98559 /* CBPersephone.png in Resources */,
+				AE50B5741634ED5D00B98559 /* CCBBB.png in Resources */,
+				AE50B5751634ED5D00B98559 /* CCOnimaru.png in Resources */,
+				AE50B5761634ED5D00B98559 /* CCVendetta.png in Resources */,
+				AE50B5771634ED5D00B98559 /* CCGloria.png in Resources */,
+				AE50B5781634ED5D00B98559 /* CBMenelker.png in Resources */,
+				AE50B5791634ED5D00B98559 /* CCTroq.png in Resources */,
+				AE50B57A1634ED5D00B98559 /* CCQuince.png in Resources */,
+				AE50B5951635060F00B98559 /* PS_X-Copy.png in Resources */,
+				AE50B5961635060F00B98559 /* PS_The_Hammer.png in Resources */,
+				AE50B5971635060F00B98559 /* PS_Signature_Move.png in Resources */,
+				AE50B5981635060F00B98559 /* PS_Safe_Keeping.png in Resources */,
+				AE50B5991635060F00B98559 /* PS_Risk_to_Riskonade.png in Resources */,
+				AE50B59A1635060F00B98559 /* PS_Repeated_Jabs.png in Resources */,
+				AE50B59B1635060F00B98559 /* PS_Punch_Punch_Kick.png in Resources */,
+				AE50B59C1635060F00B98559 /* PS_Pick_Your_Poison.png in Resources */,
+				AE50B59D1635060F00B98559 /* PS_Ouch!.png in Resources */,
+				AE50B59E1635060F00B98559 /* PS_Option_Select.png in Resources */,
+				AE50B59F1635060F00B98559 /* PS_One_True_Style.png in Resources */,
+				AE50B5A01635060F00B98559 /* PS_Now_or_Later.png in Resources */,
+				AE50B5A11635060F00B98559 /* PS_Money_for_Nothing.png in Resources */,
+				AE50B5A21635060F00B98559 /* PS_Just_a_Scratch.png in Resources */,
+				AE50B5A31635060F00B98559 /* PS_Improvisation.png in Resources */,
+				AE50B5A41635060F00B98559 /* PS_Hundred-Fist_Frenzy.png in Resources */,
+				AE50B5A51635060F00B98559 /* PS_Ebb_or_Flow.png in Resources */,
+				AE50B5A61635060F00B98559 /* PS_Degenerate_Trasher.png in Resources */,
+				AE50B5A71635060F00B98559 /* PS_Color_Panic.png in Resources */,
+				AE50B5A81635060F00B98559 /* PS_Chips_for_Free.png in Resources */,
+				AE50B5A91635060F00B98559 /* PS_Button_Mashing.png in Resources */,
+				AE50B5AA1635060F00B98559 /* PS_Blues_are_Good.png in Resources */,
+				AE50B5AB1635060F00B98559 /* PS_Bang_then_Fizzle.png in Resources */,
+				AE50B5AC1635060F00B98559 /* PS_Axe_Kick.png in Resources */,
+				AE50B5AD1635060F00B98559 /* PS_Combo_Practice.png in Resources */,
+				AE29C0241636374D0032B203 /* EncyclopediaViewController.xib in Resources */,
+				AE29C02A163645120032B203 /* EncyclopediaDetailViewController.xib in Resources */,
+				AE29C03016364C650032B203 /* CharacterDetailTableViewCell.xib in Resources */,
+				AE29C03516365EB50032B203 /* CharacterDetailHeaderViewController.xib in Resources */,
+				AE29C03C163664290032B203 /* SingleCharacterDetailViewController.xib in Resources */,
+				AE5761B51637B260000206FB /* PS_Maximum_Anarchy.png in Resources */,
+				AE5761B61637B260000206FB /* PS_Crash_Bomb.png in Resources */,
+				AE5761B71637B260000206FB /* PS_Crash_Potato.png in Resources */,
+				AE5761B81637B260000206FB /* PS_Shadowswarm.png in Resources */,
+				AE5761B91637B260000206FB /* PS_Burnbarrow.png in Resources */,
+				AE5761BA1637B260000206FB /* PS_Shadow_Plague.png in Resources */,
+				AE5761BB1637B260000206FB /* PS_Mistress's_Command.png in Resources */,
+				AE5761BC1637B260000206FB /* PS_Always_in_Control.png in Resources */,
+				AE5761BD1637B260000206FB /* PS_Pleasure_&_Pain.png in Resources */,
+				AE5761BE1637B260000206FB /* PS_Rocket_Punch.png in Resources */,
+				AE5761BF1637B260000206FB /* PS_Cog_Engine.png in Resources */,
+				AE5761C01637B260000206FB /* PS_Upgrade.png in Resources */,
+				AE5761C11637B260000206FB /* PS_Wartime_Tactics.png in Resources */,
+				AE5761C21637B260000206FB /* PS_Double_Slash.png in Resources */,
+				AE5761C31637B260000206FB /* PS_Riposte.png in Resources */,
+				AE5761C41637B260000206FB /* PS_Surgical_Strike.png in Resources */,
+				AE5761C51637B260000206FB /* PS_Acrobatics.png in Resources */,
+				AE5761C61637B260000206FB /* PS_Stunlock.png in Resources */,
+				AE5761C71637B260000206FB /* PS_Saving_Grace.png in Resources */,
+				AE5761C81637B260000206FB /* PS_Healing_Touch.png in Resources */,
+				AE5761C91637B260000206FB /* PS_Radiant_Healing.png in Resources */,
+				AE5761CA1637B260000206FB /* PS_Deathstrike_Dragon.png in Resources */,
+				AE5761CB1637B260000206FB /* PS_Into_Oblivion.png in Resources */,
+				AE5761CC1637B260000206FB /* PS_Bonecracker.png in Resources */,
+				AE5761CD1637B260000206FB /* PS_Beast_Unleashed.png in Resources */,
+				AE5761CE1637B260000206FB /* PS_More_Shiny.png in Resources */,
+				AE5761CF1637B260000206FB /* PS_Giant_Growth.png in Resources */,
+				AE5761D01637B260000206FB /* PS_Two_Truths.png in Resources */,
+				AE5761D11637B260000206FB /* PS_Patriot_Mirror.png in Resources */,
+				AE5761D21637B260000206FB /* PS_Flagstone_Tax.png in Resources */,
+				AE5761D71637B8F7000206FB /* PuzzleChipDetailTableViewCell.xib in Resources */,
+				AE5761DC1637BD64000206FB /* SinglePuzzleChipDetailViewController.xib in Resources */,
+				AEAD9BDB163885290094DD59 /* ps_triangle_web.png in Resources */,
+				8EDA0F951647543300DFA321 /* ConfigureRandomizerViewController.xib in Resources */,
+				8EDA0F9B1648E3B700DFA321 /* ConfigureTableViewCell.xib in Resources */,
+				8EEF251C165FED390096F642 /* ConfigureCharacterTableViewCell.xib in Resources */,
+				8E514268166085CE00A0D76D /* ConfigureViewController.xib in Resources */,
+				8EA3615316A3BF7100B38058 /* Icon.png in Resources */,
+				8EA3615416A3BF7100B38058 /* Icon-72@2x.png in Resources */,
+				8EA3615516A3BF7100B38058 /* Icon@2x.png in Resources */,
+				8EA3615616A3BF7100B38058 /* Icon-72.png in Resources */,
+				8E688BF816AE254F00BB41CB /* AboutScreenViewController.xib in Resources */,
+				8E3D5D1F1703E95600952A63 /* psr144.png in Resources */,
+				8E3D5D201703E95600952A63 /* psr114.png in Resources */,
+				8E3D5D211703E95600952A63 /* psr57.png in Resources */,
+				8E3D5D221703E95600952A63 /* psr72.png in Resources */,
+				8E3D5D241703EB2800952A63 /* psricon500x500.png in Resources */,
+				8E3D5DD71713CE7100952A63 /* psr_dice.png in Resources */,
+				8E3D5DDA1713D1B200952A63 /* 198-card-spades.png in Resources */,
+				8E3D5DDC1713D27700952A63 /* 157-wrench.png in Resources */,
+				8E3D5DDE1713D3AA00952A63 /* 123-id-card.png in Resources */,
+				8E3D5DE01713D45400952A63 /* 96-book.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE50B3EF16327BCC00B98559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE50B3FE16327BCC00B98559 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AE50B3F016327BCC00B98559 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE50B3BF16327BCC00B98559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE50B3D416327BCC00B98559 /* main.m in Sources */,
+				AE50B3D816327BCC00B98559 /* AppDelegate.m in Sources */,
+				AE50B40D16327D0E00B98559 /* RandomChipSelector.m in Sources */,
+				AE50B4171632999F00B98559 /* MainMenuViewController.m in Sources */,
+				AE50B4981633116200B98559 /* RandomizerRecapViewController.m in Sources */,
+				AE50B49D16336A1800B98559 /* RecapHeaderViewController.m in Sources */,
+				AE50B4A216336EF400B98559 /* CharacterChipTableViewCell.m in Sources */,
+				AE50B55D1633915C00B98559 /* PuzzleChipTableViewCell.m in Sources */,
+				AE29C0231636374D0032B203 /* EncyclopediaViewController.m in Sources */,
+				AE29C029163645120032B203 /* EncyclopediaDetailViewController.m in Sources */,
+				AE29C02F16364C650032B203 /* CharacterDetailTableViewCell.m in Sources */,
+				AE29C03416365EB50032B203 /* CharacterDetailHeaderViewController.m in Sources */,
+				AE29C03B163664290032B203 /* SingleCharacterDetailViewController.m in Sources */,
+				AE5761D61637B8F7000206FB /* PuzzleChipDetailTableViewCell.m in Sources */,
+				AE5761DB1637BD64000206FB /* SinglePuzzleChipDetailViewController.m in Sources */,
+				8EDA0F941647543300DFA321 /* ConfigureRandomizerViewController.m in Sources */,
+				8EDA0F9A1648E3B700DFA321 /* ConfigureTableViewCell.m in Sources */,
+				8EA9F973164B798B00092C42 /* RandomizerSettingsManager.m in Sources */,
+				8EEF251B165FED390096F642 /* ConfigureCharacterTableViewCell.m in Sources */,
+				8E514267166085CE00A0D76D /* ConfigureViewController.m in Sources */,
+				8E688BF716AE254F00BB41CB /* AboutScreenViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE50B3ED16327BCC00B98559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE50B40116327BCC00B98559 /* Puzzle_Strike_RandomizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE50B3F816327BCC00B98559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE50B3C216327BCC00B98559 /* Puzzle Strike Randomizer */;
+			targetProxy = AE50B3F716327BCC00B98559 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE50B3D016327BCC00B98559 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE50B3D116327BCC00B98559 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE50B3FC16327BCC00B98559 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE50B3FD16327BCC00B98559 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE50B40216327BCC00B98559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jeffrey Sinckler";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "A254041B-2EB9-4134-A3E2-7B81EF94A3DB";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE50B40316327BCC00B98559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jeffrey Sinckler";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jeffrey Sinckler";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "A254041B-2EB9-4134-A3E2-7B81EF94A3DB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A254041B-2EB9-4134-A3E2-7B81EF94A3DB";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE50B40516327BCC00B98559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle Strike Randomizer/Puzzle Strike Randomizer-Prefix.pch";
+				INFOPLIST_FILE = "Puzzle Strike Randomizer/Puzzle Strike Randomizer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = PSCC;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE50B40616327BCC00B98559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle Strike Randomizer/Puzzle Strike Randomizer-Prefix.pch";
+				INFOPLIST_FILE = "Puzzle Strike Randomizer/Puzzle Strike Randomizer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = PSCC;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AE50B40816327BCD00B98559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Puzzle Strike Randomizer.app/Puzzle Strike Randomizer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle Strike Randomizer/Puzzle Strike Randomizer-Prefix.pch";
+				INFOPLIST_FILE = "Puzzle Strike RandomizerTests/Puzzle Strike RandomizerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AE50B40916327BCD00B98559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Puzzle Strike Randomizer.app/Puzzle Strike Randomizer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle Strike Randomizer/Puzzle Strike Randomizer-Prefix.pch";
+				INFOPLIST_FILE = "Puzzle Strike RandomizerTests/Puzzle Strike RandomizerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE50B3BD16327BCC00B98559 /* Build configuration list for PBXProject "Puzzle Strike Randomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE50B40216327BCC00B98559 /* Debug */,
+				AE50B40316327BCC00B98559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE50B40416327BCC00B98559 /* Build configuration list for PBXNativeTarget "Puzzle Strike Randomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE50B40516327BCC00B98559 /* Debug */,
+				AE50B40616327BCC00B98559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE50B40716327BCD00B98559 /* Build configuration list for PBXNativeTarget "Puzzle Strike RandomizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE50B40816327BCD00B98559 /* Debug */,
+				AE50B40916327BCD00B98559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE50B3BA16327BCC00B98559 /* Project object */;
+}
