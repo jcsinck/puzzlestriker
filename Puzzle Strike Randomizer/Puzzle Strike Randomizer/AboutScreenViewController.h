@@ -10,6 +10,8 @@
 
 @interface AboutScreenViewController : UIViewController
 
+@property (nonatomic, retain) IBOutlet UITextView *aboutText;
+
 -(IBAction)closeWindow:(id)sender;
 
 @end

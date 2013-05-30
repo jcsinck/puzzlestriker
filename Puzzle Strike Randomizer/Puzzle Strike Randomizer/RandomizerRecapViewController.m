@@ -16,6 +16,7 @@
 @synthesize puzzleChips;
 @synthesize names;
 @synthesize recapContentView;
+@synthesize backButton;
 @synthesize characterHeader;
 @synthesize puzzleChipHeader;
 
@@ -66,6 +67,9 @@
     
     [self.recapContentView setDataSource:self];
     [self.recapContentView setDelegate:self];
+    
+    if(IS_IPHONE_5)
+        [self resizeForFourInchRetina];
 }
 
 - (void)viewDidUnload
@@ -134,6 +138,22 @@
     self.puzzleChips = [rcs selectPuzzleChips:numChars >= 5 ? 12 : 10];
     
     [self.recapContentView reloadData];
+}
+
+#pragma mark - View resizing
+-(void)resizeForFourInchRetina
+{
+    //increase the height of the view itself
+    [self.view setFrame:CGRectMake(self.view.frame.origin.x,
+                                               self.view.frame.origin.y,
+                                               self.view.frame.size.width,
+                                               self.view.frame.size.height + 88)];
+    
+    //move the back button down
+    [self.backButton setFrame:CGRectMake(self.backButton.frame.origin.x,
+                                         self.backButton.frame.origin.y + 88,
+                                         self.backButton.frame.size.width,
+                                         self.backButton.frame.size.height)];
 }
 
 #pragma mark - UITableViewDataSource

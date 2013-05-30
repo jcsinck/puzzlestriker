@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AE50B3C216327BCC00B98559"
-               BuildableName = "PuzzleStrikeR.app"
+               BuildableName = "PSCC.app"
                BlueprintName = "Puzzle Strike Randomizer"
                ReferencedContainer = "container:Puzzle Strike Randomizer.xcodeproj">
             </BuildableReference>
@@ -42,7 +42,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE50B3C216327BCC00B98559"
-            BuildableName = "PuzzleStrikeR.app"
+            BuildableName = "PSCC.app"
             BlueprintName = "Puzzle Strike Randomizer"
             ReferencedContainer = "container:Puzzle Strike Randomizer.xcodeproj">
          </BuildableReference>
@@ -54,13 +54,14 @@
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE50B3C216327BCC00B98559"
-            BuildableName = "PuzzleStrikeR.app"
+            BuildableName = "PSCC.app"
             BlueprintName = "Puzzle Strike Randomizer"
             ReferencedContainer = "container:Puzzle Strike Randomizer.xcodeproj">
          </BuildableReference>
@@ -78,7 +79,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE50B3C216327BCC00B98559"
-            BuildableName = "PuzzleStrikeR.app"
+            BuildableName = "PSCC.app"
             BlueprintName = "Puzzle Strike Randomizer"
             ReferencedContainer = "container:Puzzle Strike Randomizer.xcodeproj">
          </BuildableReference>

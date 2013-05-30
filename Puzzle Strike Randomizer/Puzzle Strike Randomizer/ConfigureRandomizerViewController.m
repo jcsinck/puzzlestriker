@@ -13,6 +13,7 @@
 @implementation ConfigureRandomizerViewController
 
 @synthesize configureTable;
+@synthesize backButton;
 @synthesize rsm;
 
 -(id)initWithStandardPuzzleChipArray:(NSArray *)standard andExpansionPuzzleChipArray:(NSArray *)expansion
@@ -81,6 +82,24 @@
     
     [self.configureTable setDataSource:self];
     [self.configureTable setDelegate:self];
+    
+    if(IS_IPHONE_5)
+        [self resizeForFourInchRetina];
+}
+
+-(void)resizeForFourInchRetina
+{
+    //increase the height of the view itself
+    [self.view setFrame:CGRectMake(self.view.frame.origin.x,
+                                   self.view.frame.origin.y,
+                                   self.view.frame.size.width,
+                                   self.view.frame.size.height + 88)];
+    
+    //move the back button down
+    [self.backButton setFrame:CGRectMake(self.backButton.frame.origin.x,
+                                         self.backButton.frame.origin.y + 88,
+                                         self.backButton.frame.size.width,
+                                         self.backButton.frame.size.height)];
 }
 
 - (void)viewDidUnload

@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E3D5D1F1703E95600952A63 /* psr144.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D5D1B1703E95600952A63 /* psr144.png */; };
-		8E3D5D201703E95600952A63 /* psr114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D5D1C1703E95600952A63 /* psr114.png */; };
-		8E3D5D211703E95600952A63 /* psr57.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D5D1D1703E95600952A63 /* psr57.png */; };
-		8E3D5D221703E95600952A63 /* psr72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D5D1E1703E95600952A63 /* psr72.png */; };
-		8E3D5D241703EB2800952A63 /* psricon500x500.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D5D231703EB2800952A63 /* psricon500x500.png */; };
 		8E3D5DD71713CE7100952A63 /* psr_dice.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D5DD61713CE7100952A63 /* psr_dice.png */; };
 		8E3D5DDA1713D1B200952A63 /* 198-card-spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D5DD91713D1B200952A63 /* 198-card-spades.png */; };
 		8E3D5DDC1713D27700952A63 /* 157-wrench.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D5DDB1713D27700952A63 /* 157-wrench.png */; };
@@ -202,6 +197,12 @@
 		AE5761DB1637BD64000206FB /* SinglePuzzleChipDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5761D91637BD63000206FB /* SinglePuzzleChipDetailViewController.m */; };
 		AE5761DC1637BD64000206FB /* SinglePuzzleChipDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE5761DA1637BD64000206FB /* SinglePuzzleChipDetailViewController.xib */; };
 		AEAD9BDB163885290094DD59 /* ps_triangle_web.png in Resources */ = {isa = PBXBuildFile; fileRef = AEAD9BDA163885290094DD59 /* ps_triangle_web.png */; };
+		AEFBE0BC1756F79C00CB6909 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEFBE0BB1756F79C00CB6909 /* Default-568h@2x.png */; };
+		AEFBE0C917570F7800CB6909 /* psr57.png in Resources */ = {isa = PBXBuildFile; fileRef = AEFBE0C417570F7600CB6909 /* psr57.png */; };
+		AEFBE0CA17570F7800CB6909 /* psr72.png in Resources */ = {isa = PBXBuildFile; fileRef = AEFBE0C517570F7600CB6909 /* psr72.png */; };
+		AEFBE0CB17570F7800CB6909 /* psr114.png in Resources */ = {isa = PBXBuildFile; fileRef = AEFBE0C617570F7700CB6909 /* psr114.png */; };
+		AEFBE0CC17570F7800CB6909 /* psr144.png in Resources */ = {isa = PBXBuildFile; fileRef = AEFBE0C717570F7700CB6909 /* psr144.png */; };
+		AEFBE0CD17570F7800CB6909 /* psricon500x500.png in Resources */ = {isa = PBXBuildFile; fileRef = AEFBE0C817570F7800CB6909 /* psricon500x500.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -215,11 +216,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8E3D5D1B1703E95600952A63 /* psr144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psr144.png; sourceTree = "<group>"; };
-		8E3D5D1C1703E95600952A63 /* psr114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psr114.png; sourceTree = "<group>"; };
-		8E3D5D1D1703E95600952A63 /* psr57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psr57.png; sourceTree = "<group>"; };
-		8E3D5D1E1703E95600952A63 /* psr72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psr72.png; sourceTree = "<group>"; };
-		8E3D5D231703EB2800952A63 /* psricon500x500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psricon500x500.png; sourceTree = "<group>"; };
 		8E3D5DD61713CE7100952A63 /* psr_dice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psr_dice.png; sourceTree = "<group>"; };
 		8E3D5DD91713D1B200952A63 /* 198-card-spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "198-card-spades.png"; sourceTree = "<group>"; };
 		8E3D5DDB1713D27700952A63 /* 157-wrench.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "157-wrench.png"; sourceTree = "<group>"; };
@@ -261,7 +257,7 @@
 		AE29C038163664290032B203 /* SingleCharacterDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleCharacterDetailViewController.h; sourceTree = "<group>"; };
 		AE29C039163664290032B203 /* SingleCharacterDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleCharacterDetailViewController.m; sourceTree = "<group>"; };
 		AE29C03A163664290032B203 /* SingleCharacterDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleCharacterDetailViewController.xib; sourceTree = "<group>"; };
-		AE50B3C316327BCC00B98559 /* PSCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE50B3C316327BCC00B98559 /* P.Chipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P.Chipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE50B3C716327BCC00B98559 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AE50B3C916327BCC00B98559 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AE50B3CB16327BCC00B98559 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -434,6 +430,12 @@
 		AE5761D91637BD63000206FB /* SinglePuzzleChipDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglePuzzleChipDetailViewController.m; sourceTree = "<group>"; };
 		AE5761DA1637BD64000206FB /* SinglePuzzleChipDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SinglePuzzleChipDetailViewController.xib; sourceTree = "<group>"; };
 		AEAD9BDA163885290094DD59 /* ps_triangle_web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ps_triangle_web.png; path = Resources/ps_triangle_web.png; sourceTree = "<group>"; };
+		AEFBE0BB1756F79C00CB6909 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AEFBE0C417570F7600CB6909 /* psr57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psr57.png; sourceTree = "<group>"; };
+		AEFBE0C517570F7600CB6909 /* psr72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psr72.png; sourceTree = "<group>"; };
+		AEFBE0C617570F7700CB6909 /* psr114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psr114.png; sourceTree = "<group>"; };
+		AEFBE0C717570F7700CB6909 /* psr144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psr144.png; sourceTree = "<group>"; };
+		AEFBE0C817570F7800CB6909 /* psricon500x500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psricon500x500.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -545,7 +547,7 @@
 		AE50B3C416327BCC00B98559 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE50B3C316327BCC00B98559 /* PSCC.app */,
+				AE50B3C316327BCC00B98559 /* P.Chipper.app */,
 				AE50B3F216327BCC00B98559 /* Puzzle Strike RandomizerTests.octest */,
 			);
 			name = Products;
@@ -737,16 +739,17 @@
 		AE50B55F1633B2D400B98559 /* Extra Assets */ = {
 			isa = PBXGroup;
 			children = (
+				AEFBE0C417570F7600CB6909 /* psr57.png */,
+				AEFBE0C517570F7600CB6909 /* psr72.png */,
+				AEFBE0C617570F7700CB6909 /* psr114.png */,
+				AEFBE0C717570F7700CB6909 /* psr144.png */,
+				AEFBE0C817570F7800CB6909 /* psricon500x500.png */,
+				AEFBE0BB1756F79C00CB6909 /* Default-568h@2x.png */,
 				8E3D5DDF1713D45400952A63 /* 96-book.png */,
 				8E3D5DDD1713D3AA00952A63 /* 123-id-card.png */,
 				8E3D5DDB1713D27700952A63 /* 157-wrench.png */,
 				8E3D5DD91713D1B200952A63 /* 198-card-spades.png */,
 				8E3D5DD61713CE7100952A63 /* psr_dice.png */,
-				8E3D5D231703EB2800952A63 /* psricon500x500.png */,
-				8E3D5D1B1703E95600952A63 /* psr144.png */,
-				8E3D5D1C1703E95600952A63 /* psr114.png */,
-				8E3D5D1D1703E95600952A63 /* psr57.png */,
-				8E3D5D1E1703E95600952A63 /* psr72.png */,
 				8EA3615216A3BF7100B38058 /* Icon-72.png */,
 				8EA3615016A3BF7100B38058 /* Icon-72@2x.png */,
 				8EA3614F16A3BF7100B38058 /* Icon.png */,
@@ -862,7 +865,7 @@
 			);
 			name = "Puzzle Strike Randomizer";
 			productName = "Puzzle Strike Randomizer";
-			productReference = AE50B3C316327BCC00B98559 /* PSCC.app */;
+			productReference = AE50B3C316327BCC00B98559 /* P.Chipper.app */;
 			productType = "com.apple.product-type.application";
 		};
 		AE50B3F116327BCC00B98559 /* Puzzle Strike RandomizerTests */ = {
@@ -1072,16 +1075,17 @@
 				8EA3615516A3BF7100B38058 /* Icon@2x.png in Resources */,
 				8EA3615616A3BF7100B38058 /* Icon-72.png in Resources */,
 				8E688BF816AE254F00BB41CB /* AboutScreenViewController.xib in Resources */,
-				8E3D5D1F1703E95600952A63 /* psr144.png in Resources */,
-				8E3D5D201703E95600952A63 /* psr114.png in Resources */,
-				8E3D5D211703E95600952A63 /* psr57.png in Resources */,
-				8E3D5D221703E95600952A63 /* psr72.png in Resources */,
-				8E3D5D241703EB2800952A63 /* psricon500x500.png in Resources */,
 				8E3D5DD71713CE7100952A63 /* psr_dice.png in Resources */,
 				8E3D5DDA1713D1B200952A63 /* 198-card-spades.png in Resources */,
 				8E3D5DDC1713D27700952A63 /* 157-wrench.png in Resources */,
 				8E3D5DDE1713D3AA00952A63 /* 123-id-card.png in Resources */,
 				8E3D5DE01713D45400952A63 /* 96-book.png in Resources */,
+				AEFBE0BC1756F79C00CB6909 /* Default-568h@2x.png in Resources */,
+				AEFBE0C917570F7800CB6909 /* psr57.png in Resources */,
+				AEFBE0CA17570F7800CB6909 /* psr72.png in Resources */,
+				AEFBE0CB17570F7800CB6909 /* psr114.png in Resources */,
+				AEFBE0CC17570F7800CB6909 /* psr144.png in Resources */,
+				AEFBE0CD17570F7800CB6909 /* psricon500x500.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1233,13 +1237,15 @@
 		AE50B40516327BCC00B98559 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Puzzle Strike Randomizer/Puzzle Strike Randomizer-Prefix.pch";
 				INFOPLIST_FILE = "Puzzle Strike Randomizer/Puzzle Strike Randomizer-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = PSCC;
+				PRODUCT_NAME = P.Chipper;
 				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1248,12 +1254,12 @@
 		AE50B40616327BCC00B98559 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Puzzle Strike Randomizer/Puzzle Strike Randomizer-Prefix.pch";
 				INFOPLIST_FILE = "Puzzle Strike Randomizer/Puzzle Strike Randomizer-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = PSCC;
+				PRODUCT_NAME = P.Chipper;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;

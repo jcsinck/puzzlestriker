@@ -2,22 +2,6 @@
 <Bucket
    type = "1"
    version = "1.0">
-   <FileBreakpoints>
-      <FileBreakpoint
-         shouldBeEnabled = "Yes"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         isPathRelative = "1"
-         filePath = "Puzzle Strike Randomizer/PuzzleChipDetailTableViewCell.m"
-         timestampString = "372810315.989182"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "49"
-         endingLineNumber = "49"
-         landmarkName = "-detailsButtonTapped:"
-         landmarkType = "5">
-      </FileBreakpoint>
-   </FileBreakpoints>
    <SymbolicBreakpoints>
       <SymbolicBreakpoint
          shouldBeEnabled = "Yes"

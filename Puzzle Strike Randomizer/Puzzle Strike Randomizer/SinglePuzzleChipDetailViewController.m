@@ -46,6 +46,18 @@
     [self.chipImage setImage:[UIImage imageNamed:chipAssetName]];
     [self.faqView setEditable:NO];
     [self.faqView setText:faqString];
+    
+    if(IS_IPHONE_5)
+        [self resizeForFourInchRetina];
+}
+
+-(void)resizeForFourInchRetina
+{
+    //increase the height of the view itself
+    [self.view setFrame:CGRectMake(self.view.frame.origin.x,
+                                   self.view.frame.origin.y,
+                                   self.view.frame.size.width,
+                                   self.view.frame.size.height + 88)];
 }
 
 - (void)viewDidUnload

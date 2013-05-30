@@ -80,7 +80,7 @@ static BOOL useShadowsPuzzleChip = YES;
 
 -(NSDictionary *)selectRandomChipFromArray:(NSMutableArray *)targetArray
 {
-    int randInt = arc4random() % [targetArray count];
+    int randInt = arc4random_uniform([targetArray count]);
     return [targetArray objectAtIndex:randInt];
 }
 
@@ -194,7 +194,7 @@ static BOOL useShadowsPuzzleChip = YES;
     
     for(int i = 0; i < numChars; i++)
     {
-        int randInt = arc4random() % [sourceCopy count];
+        int randInt = arc4random_uniform([sourceCopy count]);
         NSString *str = [sourceCopy objectAtIndex:randInt];
         if([str length] > 0)
             [returnNamesArray addObject:str];

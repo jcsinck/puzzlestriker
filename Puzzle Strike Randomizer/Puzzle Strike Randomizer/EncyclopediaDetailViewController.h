@@ -22,6 +22,7 @@ typedef enum {
 @property (nonatomic, retain) NSArray *expansionPuzzleChips;
 
 @property (nonatomic, retain) IBOutlet UITableView *characterContentView;
+@property (nonatomic, retain) IBOutlet UIButton *backButton;
 
 @property EncyclopediaState encyclopediaState;
 

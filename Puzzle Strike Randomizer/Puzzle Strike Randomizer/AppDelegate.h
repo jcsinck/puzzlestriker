@@ -14,6 +14,8 @@
 #import "ConfigureViewController.h"
 #import "AboutScreenViewController.h"
 
+#define IS_IPHONE_5 ([[UIScreen mainScreen] bounds].size.height == 568.0f)
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

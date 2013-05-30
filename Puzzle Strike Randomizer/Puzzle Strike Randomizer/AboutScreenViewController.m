@@ -11,6 +11,8 @@
 
 @implementation AboutScreenViewController
 
+@synthesize aboutText;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -36,6 +38,24 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    if(IS_IPHONE_5)
+        [self resizeForFourInchRetina];
+}
+
+-(void)resizeForFourInchRetina
+{
+    //increase the height of the view itself
+    [self.view setFrame:CGRectMake(self.view.frame.origin.x,
+                                   self.view.frame.origin.y,
+                                   self.view.frame.size.width,
+                                   self.view.frame.size.height + 88)];
+    
+    //move the back button down
+    [self.aboutText setFrame:CGRectMake(self.aboutText.frame.origin.x,
+                                         self.aboutText.frame.origin.y,
+                                         self.aboutText.frame.size.width,
+                                         self.aboutText.frame.size.height + 88)];
 }
 
 - (void)viewDidUnload

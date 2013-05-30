@@ -33,6 +33,7 @@ typedef enum {
 }
 
 @property (nonatomic, retain) IBOutlet UITableView *configureTable;
+@property (nonatomic, retain) IBOutlet UIButton *backButton;
 @property (nonatomic, retain) RandomizerSettingsManager *rsm;
 
 -(id)initWithStandardPuzzleChipArray:(NSArray *)standard andExpansionPuzzleChipArray:(NSArray *)expansion;

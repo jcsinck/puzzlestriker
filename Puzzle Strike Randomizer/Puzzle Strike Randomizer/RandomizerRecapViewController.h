@@ -20,6 +20,7 @@
 @property (nonatomic, retain) NSArray *names;
 
 @property (nonatomic, retain) IBOutlet UITableView *recapContentView;
+@property (nonatomic, retain) IBOutlet UIButton *backButton;
 @property (nonatomic, retain) RecapHeaderViewController *characterHeader;
 @property (nonatomic, retain) RecapHeaderViewController *puzzleChipHeader;
 
@@ -33,5 +34,8 @@
 //button handlers
 -(void)rerollCharacterChips;
 -(void)rerollPuzzleChips;
+
+//view resizing
+-(void)resizeForFourInchRetina;
 
 @end
